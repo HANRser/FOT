@@ -1,0 +1,49 @@
+# Python
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+
+# Environments
+.venv/
+venv/
+env/
+.env
+.conda/
+
+# IDE
+.vscode/
+.idea/
+
+# Datasets
+data/
+datasets/
+downloads/
+
+# Model weights and checkpoints
+models/
+checkpoints/
+*.ckpt
+*.pth
+*.pt
+*.bin
+*.safetensors
+
+# Training outputs
+outputs/
+results/
+logs/
+runs/
+wandb/
+tensorboard/
+slurm-*.out
+
+# Temporary files
+tmp/
+*.tmp
+*.log
+
+# OS
+.DS_Store
+Thumbs.db
