@@ -2,3 +2,17 @@
 /FOT.code-workspace
 /__pycache__
 /集群问题文档
+
+# Python caches and local environments
+**/__pycache__/
+*.py[cod]
+.pytest_cache/
+.venv/
+
+# Downloaded model weights and generated experiment artifacts
+models/
+checkpoints/
+outputs/
+results/
+*.ckpt
+*.safetensors

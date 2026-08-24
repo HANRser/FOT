@@ -16,3 +16,11 @@ lpips>=0.1.4
 
 # Test runner.
 pytest>=8,<9
+
+# End-to-end reproduction, evaluation and demo.
+pillow>=10
+numpy>=1.24
+opencv-python>=4.8
+gradio>=4.0
+scikit-image>=0.22
+imageio[ffmpeg]>=2.34

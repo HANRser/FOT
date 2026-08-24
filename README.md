@@ -222,3 +222,35 @@ python simulation_debug.py \
   --model /data/$USER/models/sd-vae-ft-mse \
   --local-files-only
 ```
+
+## 完整复现入口
+
+本仓库现已补齐计划书中的端到端工程：`template/`、`i2v/`、`flow/`、
+`recovery/`、`demo/`、训练与评估脚本。底层论文公式仍保留在仓库根目录，目录版
+模块是稳定导入接口。
+
+```bash
+# 1. 安装与你的 CUDA 匹配的 PyTorch，再安装其余依赖
+pip install -r requirements.txt
+
+# 2. 不下载大模型，先验证完整计算图和形状
+python simulation_debug.py
+
+# 3. 模板预训练
+python train.py --data data/images --size 256 --epochs 10
+
+# 4. 离线轻量 Demo
+python run_demo.py --mock
+
+# 5. 正式 SVD + RAFT Demo（首次运行会下载权重）
+python run_demo.py
+
+# 6. 评估恢复结果
+python evaluate.py original.png recovered.png --lpips
+```
+
+正式模式使用 `stabilityai/stable-video-diffusion-img2vid-xt` 与 torchvision
+RAFT-Small。`--mock` 使用可微的确定性平移视频和零光流，仅用于环境检查，不代表
+论文指标。训练脚本默认采用廉价的可微压缩代理做模板预训练；大规模实验可将该
+代理替换为 `FrozenVAEReconstructor` 或真实 I2V 生成结果，并用现有运动损失和
+恢复损失联合微调。
