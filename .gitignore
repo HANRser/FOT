@@ -14,5 +14,8 @@ models/
 checkpoints/
 outputs/
 results/
+data/raw/
+data/processed/
+data/manifests/
 *.ckpt
 *.safetensors

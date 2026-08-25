@@ -23,7 +23,7 @@ from torch.utils.data import DataLoader
 
 from VAE import FrozenVAEReconstructor
 from fot.checkpoint import load_checkpoint, save_checkpoint
-from fot.data import ImageFolderDataset
+from fot.data import ImageFolderDataset, ImageMotionDataset
 from fot.motion_model import MotionCaptureNet
 from fot.recovery import recover
 from fot.synthetic_motion import AffineMotionConfig, make_synthetic_video
@@ -43,12 +43,14 @@ class LossWeights:
 def parse_args() -> argparse.Namespace:
     parser = argparse.ArgumentParser(description=__doc__)
     parser.add_argument("--data", required=True, help="Training image directory")
-    parser.add_argument("--val-data", help="Optional validation image directory")
+    parser.add_argument("--val-data", help="Optional validation image directory/manifest")
+    parser.add_argument("--flow-data", help="Optional training .flo directory/manifest")
+    parser.add_argument("--val-flow-data", help="Optional validation .flo directory/manifest")
     parser.add_argument("--output-dir", default="checkpoints/default")
     parser.add_argument("--resume", help="Path to a last.pt/best.pt checkpoint")
     parser.add_argument("--vae-model", default="stabilityai/sd-vae-ft-mse")
     parser.add_argument("--local-files-only", action="store_true")
-    parser.add_argument("--size", type=int, default=256)
+    parser.add_argument("--size", type=int, default=512)
     parser.add_argument("--epochs", type=int, default=20)
     parser.add_argument("--batch-size", type=int, default=4)
     parser.add_argument("--workers", type=int, default=4)
@@ -125,13 +127,23 @@ def compute_batch(
     motion_config: AffineMotionConfig,
     num_frames: int,
     amp_dtype: str,
+    known_flows: Optional[Tensor] = None,
+    known_flow_masks: Optional[Tensor] = None,
 ) -> tuple[Tensor, dict[str, float]]:
     with autocast_context(image.device, amp_dtype):
         protected = template(image)
         reconstructed = vae(protected)
-        video, ground_truth_flow, valid_masks = make_synthetic_video(
-            reconstructed, num_frames, motion_config
-        )
+        if known_flows is None:
+            video, ground_truth_flow, valid_masks = make_synthetic_video(
+                reconstructed, num_frames, motion_config
+            )
+        else:
+            from fot.synthetic_motion import render_synthetic_video
+
+            ground_truth_flow = known_flows
+            video, valid_masks = render_synthetic_video(reconstructed, known_flows)
+            if known_flow_masks is not None:
+                valid_masks = valid_masks * known_flow_masks.to(valid_masks.dtype)
         prediction = motion_model.forward_video(reconstructed, video)
 
         batch, frames = ground_truth_flow.shape[:2]
@@ -169,8 +181,23 @@ def compute_batch(
     return total, metrics
 
 
-def make_loader(path: str, args: argparse.Namespace, shuffle: bool) -> DataLoader:
-    dataset = ImageFolderDataset(path, args.size)
+def make_loader(
+    path: str,
+    args: argparse.Namespace,
+    shuffle: bool,
+    flow_path: Optional[str] = None,
+) -> DataLoader:
+    dataset = (
+        ImageMotionDataset(
+            path,
+            flow_path,
+            size=args.size,
+            num_frames=args.num_frames,
+            randomize_flows=shuffle,
+        )
+        if flow_path
+        else ImageFolderDataset(path, args.size)
+    )
     return DataLoader(
         dataset,
         batch_size=args.batch_size,
@@ -199,9 +226,10 @@ def run_validation(
     totals: dict[str, float] = {}
     count = 0
     with torch.no_grad():
-        for image in loader:
+        for batch in loader:
+            image, known_flows, known_masks = unpack_batch(batch, device)
             _, metrics = compute_batch(
-                image.to(device, non_blocking=True),
+                image,
                 template=template,
                 motion_model=motion_model,
                 vae=vae,
@@ -210,6 +238,8 @@ def run_validation(
                 motion_config=motion_config,
                 num_frames=args.num_frames,
                 amp_dtype=args.amp_dtype,
+                known_flows=known_flows,
+                known_flow_masks=known_masks,
             )
             for key, value in metrics.items():
                 totals[key] = totals.get(key, 0.0) + value
@@ -217,10 +247,28 @@ def run_validation(
     return {key: value / max(count, 1) for key, value in totals.items()}
 
 
+def unpack_batch(
+    batch: Tensor | tuple[Tensor, Tensor, Tensor] | list[Tensor],
+    device: torch.device,
+) -> tuple[Tensor, Optional[Tensor], Optional[Tensor]]:
+    if isinstance(batch, (tuple, list)):
+        image, flows, masks = batch
+        return (
+            image.to(device, non_blocking=True),
+            flows.to(device, non_blocking=True),
+            masks.to(device, non_blocking=True),
+        )
+    return batch.to(device, non_blocking=True), None, None
+
+
 def main() -> None:
     args = parse_args()
     if args.epochs <= 0 or args.batch_size <= 0 or args.num_frames <= 0:
         raise SystemExit("epochs、batch-size 与 num-frames 必须大于 0")
+    if args.val_flow_data and not args.val_data:
+        raise SystemExit("--val-flow-data 需要同时提供 --val-data")
+    if args.flow_data and args.val_data and not args.val_flow_data:
+        raise SystemExit("使用真实训练光流时，验证集也必须提供 --val-flow-data")
     seed_everything(args.seed)
     device = torch.device("cuda" if torch.cuda.is_available() else "cpu")
     output_dir = Path(args.output_dir)
@@ -229,9 +277,16 @@ def main() -> None:
         json.dumps(vars(args), ensure_ascii=False, indent=2), encoding="utf-8"
     )
 
-    train_loader = make_loader(args.data, args, shuffle=True)
+    train_loader = make_loader(args.data, args, shuffle=True, flow_path=args.flow_data)
     val_loader = (
-        make_loader(args.val_data, args, shuffle=False) if args.val_data else None
+        make_loader(
+            args.val_data,
+            args,
+            shuffle=False,
+            flow_path=args.val_flow_data,
+        )
+        if args.val_data
+        else None
     )
     template = TemplateEmbedding(
         3,
@@ -297,8 +352,8 @@ def main() -> None:
         motion_model.train()
         running: dict[str, float] = {}
         batches = 0
-        for image in train_loader:
-            image = image.to(device, non_blocking=True)
+        for batch in train_loader:
+            image, known_flows, known_masks = unpack_batch(batch, device)
             optimizer.zero_grad(set_to_none=True)
             total, metrics = compute_batch(
                 image,
@@ -310,6 +365,8 @@ def main() -> None:
                 motion_config=motion_config,
                 num_frames=args.num_frames,
                 amp_dtype=args.amp_dtype,
+                known_flows=known_flows,
+                known_flow_masks=known_masks,
             )
             scaler.scale(total).backward()
             scaler.unscale_(optimizer)

@@ -236,28 +236,39 @@ pip install -r requirements.txt
 # 2. 不下载大模型，先验证完整计算图和形状
 python simulation_debug.py
 
-# 3. 联合训练 Template 与 Motion Capture
+# 3. 基础复现数据：COCO2017-val + Sintel GT flow（约 4.1 GB 下载）
+bash scripts/download_fot_mini.sh /data/lvzhengshu/FOT
+
+# 4. 联合训练 Template 与 Motion Capture（论文统一使用 512x512）
 python train.py \
-  --data data/train \
-  --val-data data/val \
-  --output-dir checkpoints/fot-256 \
-  --size 256 \
+  --data data/processed/fot-mini/train_images.txt \
+  --val-data data/processed/fot-mini/val_images.txt \
+  --flow-data data/processed/fot-mini/train_flows.txt \
+  --val-flow-data data/processed/fot-mini/val_flows.txt \
+  --output-dir checkpoints/fot-mini-512 \
+  --size 512 \
   --epochs 20 \
   --batch-size 4 \
   --num-frames 4 \
   --local-files-only
 
-# 4. 离线轻量 Demo
+# 5. 离线轻量 Demo
 python run_demo.py --mock
 
-# 5. 使用训练权重运行正式 SVD + Motion Capture Demo
+# 6. 使用训练权重运行正式 SVD + Motion Capture Demo
 python run_demo.py \
-  --checkpoint checkpoints/fot-256/best.pt \
+  --checkpoint checkpoints/fot-mini-512/best.pt \
   --local-files-only
 
-# 6. 评估恢复结果
+# 7. 评估恢复结果
 python evaluate.py original.png recovered.png --lpips
 ```
+
+论文规模训练使用 118K COCO 图像和 85K 个光流样本。本仓库的 `fot-mini`
+配置只面向基础方法复现：确定性划分 4,500 张训练图、500 张验证图，以及
+Sintel 训练集约 1,041 个真实光流场；在线仿射流仍可在不传 `--flow-data` 时
+使用。数据清单和 `metadata.json` 由 `prepare_data.py` 生成，正式测试图片不进入
+上述训练/验证清单。
 
 批量图片测评要求参考图与恢复图使用相同的相对路径和文件名：
 
@@ -278,7 +289,7 @@ CLIP Similarity 的均值、标准差、最小值和最大值。
 Original
   -> TemplateEmbedding
   -> FrozenVAEReconstructor
-  -> Differentiable Scatter + known affine flows
+  -> Differentiable Scatter + known Sintel/affine flows
   -> MotionCaptureNet(flow, alpha, beta2)
   -> confidence-guided Flow Reversal
   -> Recovered Truth
@@ -290,10 +301,12 @@ L1/LPIPS。`train.py` 默认启用 A100 适用的 BF16，逐 epoch 写出原子�
 
 ```bash
 python train.py \
-  --data data/train \
-  --val-data data/val \
-  --output-dir checkpoints/fot-256 \
-  --resume checkpoints/fot-256/last.pt \
+  --data data/processed/fot-mini/train_images.txt \
+  --val-data data/processed/fot-mini/val_images.txt \
+  --flow-data data/processed/fot-mini/train_flows.txt \
+  --val-flow-data data/processed/fot-mini/val_flows.txt \
+  --output-dir checkpoints/fot-mini-512 \
+  --resume checkpoints/fot-mini-512/last.pt \
   --local-files-only
 ```
 
