@@ -229,6 +229,10 @@ python simulation_debug.py \
 `recovery/`、`demo/`、训练与评估脚本。底层论文公式仍保留在仓库根目录，目录版
 模块是稳定导入接口。
 
+本次 512 x 512 轻量训练的固定配置、逐 epoch 指标、检查点哈希和适用范围见
+[`docs/fot_mini_training_results.md`](docs/fot_mini_training_results.md)。这些结果
+是合成光流训练/验证结果，不是独立真实 I2V 视频的最终测评。
+
 ```bash
 # 1. 安装与你的 CUDA 匹配的 PyTorch，再安装其余依赖
 pip install -r requirements.txt

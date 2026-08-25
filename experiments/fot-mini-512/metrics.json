@@ -1,0 +1,41 @@
+{
+  "experiment": "fot-mini-512",
+  "status": "completed",
+  "seed": 2026,
+  "dataset": {
+    "train_images": 4500,
+    "validation_images": 500,
+    "train_flows": 937,
+    "validation_flows": 104,
+    "image_source": "COCO2017-val",
+    "flow_source": "MPI Sintel training ground-truth flow",
+    "resolution": [512, 512]
+  },
+  "runtime": {
+    "gpu": "NVIDIA A100-SXM4-80GB",
+    "pytorch": "2.11.0+cu128",
+    "cuda_runtime": "12.8",
+    "precision": "bfloat16"
+  },
+  "epochs": [
+    {"epoch": 1, "global_step": 1125, "train_total": 1.4495171446767119, "validation_total": 0.848172407373786, "best_validation_total": 0.848172407373786},
+    {"epoch": 2, "global_step": 2250, "train_total": 0.6526718410336309, "validation_total": 0.6037089019864798, "best_validation_total": 0.6037089019864798},
+    {"epoch": 3, "global_step": 3375, "train_total": 0.4583016129516893, "validation_total": 0.6964495264291763, "best_validation_total": 0.6037089019864798},
+    {"epoch": 4, "global_step": 4500, "train_total": 0.35468505591816374, "validation_total": 0.4711085653305054, "best_validation_total": 0.4711085653305054},
+    {"epoch": 5, "global_step": 5625, "train_total": 0.2938236830731233, "validation_total": 0.3996627938747406, "best_validation_total": 0.3996627938747406}
+  ],
+  "final_validation": {
+    "total": 0.3996627938747406,
+    "fidelity_mse": 0.00028431896737311037,
+    "fidelity_lpips": 0.06190234375,
+    "motion": 0.348947935173288,
+    "recovery_l1": 0.03190331871807575,
+    "recovery_lpips": 0.12333203125
+  },
+  "checkpoints": {
+    "best": {"path": "checkpoints/fot-mini-512/best.pt", "sha256": "670b6f8f354917e7f9ffffbbc8f3ef20363bdbbada73344d2925af90478e6c59"},
+    "last": {"path": "checkpoints/fot-mini-512/last.pt", "sha256": "d45e261f4704f8f179b090335d878fdd88117b60813dc01ee33c87dc7039ea73"}
+  },
+  "tests": {"passed": 39, "failed": 0},
+  "scope_note": "These are compact-training and synthetic-flow validation metrics, not held-out real I2V benchmark results."
+}
