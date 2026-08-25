@@ -1,7 +1,8 @@
 from __future__ import annotations
 
-from typing import NamedTuple, Optional
-import torch
+from typing import NamedTuple
+
+import torch.nn.functional as F
 from torch import Tensor
 
 from template_embedding import TemplateEmbedding
@@ -24,6 +25,35 @@ class FlowOfTruthPipeline:
     def __call__(self, image: Tensor, *, num_frames: int = 14) -> PipelineOutput:
         protected = self.template(image)
         video = self.i2v.generate(protected, num_frames=num_frames)
-        flows = self.flow_estimator(protected, video)
-        confidences = photometric_confidence(protected, video, flows)
-        return PipelineOutput(protected, video, flows, confidences, recover(video, flows, confidences))
+        if video.ndim != 5 or video.shape[0] != protected.shape[0] or video.shape[2] != 3:
+            raise ValueError("I2V 输出必须为 [B,T,3,H,W]，且 batch 与输入一致")
+
+        # SVD defaults to its native 576x1024 output even when the protected image
+        # has a smaller training resolution. Optical flow and photometric confidence
+        # must be computed in the video's coordinate system.
+        flow_reference = protected
+        if protected.shape[-2:] != video.shape[-2:]:
+            flow_reference = F.interpolate(
+                protected,
+                size=video.shape[-2:],
+                mode="bilinear",
+                align_corners=False,
+                antialias=True,
+            )
+        flow_reference = flow_reference.to(device=video.device, dtype=video.dtype)
+
+        flows = self.flow_estimator(flow_reference, video)
+        confidences = photometric_confidence(flow_reference, video, flows)
+        recovered = recover(video, flows, confidences)
+
+        # Return recovered truth at the source-image resolution so it can be used
+        # directly by the recovery loss and image-quality metrics.
+        if recovered.shape[-2:] != image.shape[-2:]:
+            recovered = F.interpolate(
+                recovered,
+                size=image.shape[-2:],
+                mode="bilinear",
+                align_corners=False,
+                antialias=True,
+            )
+        return PipelineOutput(protected, video, flows, confidences, recovered)
