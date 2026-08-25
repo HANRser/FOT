@@ -236,21 +236,68 @@ pip install -r requirements.txt
 # 2. 不下载大模型，先验证完整计算图和形状
 python simulation_debug.py
 
-# 3. 模板预训练
-python train.py --data data/images --size 256 --epochs 10
+# 3. 联合训练 Template 与 Motion Capture
+python train.py \
+  --data data/train \
+  --val-data data/val \
+  --output-dir checkpoints/fot-256 \
+  --size 256 \
+  --epochs 20 \
+  --batch-size 4 \
+  --num-frames 4 \
+  --local-files-only
 
 # 4. 离线轻量 Demo
 python run_demo.py --mock
 
-# 5. 正式 SVD + RAFT Demo（首次运行会下载权重）
-python run_demo.py
+# 5. 使用训练权重运行正式 SVD + Motion Capture Demo
+python run_demo.py \
+  --checkpoint checkpoints/fot-256/best.pt \
+  --local-files-only
 
 # 6. 评估恢复结果
 python evaluate.py original.png recovered.png --lpips
 ```
 
-正式模式使用 `stabilityai/stable-video-diffusion-img2vid-xt` 与 torchvision
-RAFT-Small。`--mock` 使用可微的确定性平移视频和零光流，仅用于环境检查，不代表
-论文指标。训练脚本默认采用廉价的可微压缩代理做模板预训练；大规模实验可将该
-代理替换为 `FrozenVAEReconstructor` 或真实 I2V 生成结果，并用现有运动损失和
-恢复损失联合微调。
+批量图片测评要求参考图与恢复图使用相同的相对路径和文件名：
+
+```bash
+python evaluate.py \
+  --reference-dir data/test \
+  --recovered-dir outputs/fot-256/recovered \
+  --lpips --clip --local-files-only \
+  --output results/fot-256.json
+```
+
+命令同时写出 JSON 汇总和逐图片 CSV，包括 PSNR、标准 SSIM、LPIPS 与
+CLIP Similarity 的均值、标准差、最小值和最大值。
+
+正式训练链路为：
+
+```text
+Original
+  -> TemplateEmbedding
+  -> FrozenVAEReconstructor
+  -> Differentiable Scatter + known affine flows
+  -> MotionCaptureNet(flow, alpha, beta2)
+  -> confidence-guided Flow Reversal
+  -> Recovered Truth
+```
+
+总损失包含保护图 MSE/LPIPS、Mixture-of-Laplace 运动 NLL，以及恢复图
+L1/LPIPS。`train.py` 默认启用 A100 适用的 BF16，逐 epoch 写出原子的
+`last.pt` 和 `best.pt`。用下面的命令从中断位置继续：
+
+```bash
+python train.py \
+  --data data/train \
+  --val-data data/val \
+  --output-dir checkpoints/fot-256 \
+  --resume checkpoints/fot-256/last.pt \
+  --local-files-only
+```
+
+`MotionCaptureNet.forward_video` 会分块处理视频，避免 14 帧的 SVD 原生
+`576x1024` 输出一次性占满显存。没有 checkpoint 时，正式 Demo 仍可用
+torchvision RAFT-Small + 光度置信度作为基线；`--mock` 只用于环境检查，不代表
+论文指标。

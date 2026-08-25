@@ -2,6 +2,7 @@ import torch
 import torch.nn.functional as F
 from template_embedding import TemplateEmbedding
 from fot.i2v import I2VGenerator
+from fot.motion_model import MotionCaptureNet
 from fot.pipeline import FlowOfTruthPipeline
 
 
@@ -40,4 +41,19 @@ def test_pipeline_aligns_native_video_resolution_and_restores_source_size():
     assert out.video.shape == (1, 2, 3, 48, 64)
     assert out.flows.shape == (1, 2, 2, 48, 64)
     assert out.confidences.shape == (1, 2, 1, 48, 64)
+    assert out.recovered.shape == image.shape
+
+
+def test_pipeline_accepts_trainable_motion_capture_model():
+    image = torch.rand(1, 3, 32, 32)
+    template = TemplateEmbedding(3, 32, 32, base_channels=4)
+    motion_model = MotionCaptureNet(base_channels=4)
+    out = FlowOfTruthPipeline(
+        template,
+        I2VGenerator(mock=True),
+        motion_model=motion_model,
+    )(image, num_frames=2)
+
+    assert out.flows.shape == (1, 2, 2, 32, 32)
+    assert out.confidences.shape == (1, 2, 1, 32, 32)
     assert out.recovered.shape == image.shape

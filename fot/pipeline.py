@@ -19,8 +19,20 @@ class PipelineOutput(NamedTuple):
 
 
 class FlowOfTruthPipeline:
-    def __init__(self, template: TemplateEmbedding, i2v: I2VGenerator, flow_estimator) -> None:
-        self.template, self.i2v, self.flow_estimator = template, i2v, flow_estimator
+    def __init__(
+        self,
+        template: TemplateEmbedding,
+        i2v: I2VGenerator,
+        flow_estimator=None,
+        *,
+        motion_model=None,
+    ) -> None:
+        if flow_estimator is None and motion_model is None:
+            raise ValueError("flow_estimator 与 motion_model 至少需要提供一个")
+        self.template = template
+        self.i2v = i2v
+        self.flow_estimator = flow_estimator
+        self.motion_model = motion_model
 
     def __call__(self, image: Tensor, *, num_frames: int = 14) -> PipelineOutput:
         protected = self.template(image)
@@ -42,8 +54,13 @@ class FlowOfTruthPipeline:
             )
         flow_reference = flow_reference.to(device=video.device, dtype=video.dtype)
 
-        flows = self.flow_estimator(flow_reference, video)
-        confidences = photometric_confidence(flow_reference, video, flows)
+        if self.motion_model is not None:
+            prediction = self.motion_model.forward_video(flow_reference, video)
+            flows = prediction.flow
+            confidences = prediction.confidence
+        else:
+            flows = self.flow_estimator(flow_reference, video)
+            confidences = photometric_confidence(flow_reference, video, flows)
         recovered = recover(video, flows, confidences)
 
         # Return recovered truth at the source-image resolution so it can be used
