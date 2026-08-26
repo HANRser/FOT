@@ -1,0 +1,323 @@
+{
+  "started_at": "2026-08-26T04:28:54.807650+00:00",
+  "updated_at": "2026-08-26T09:14:43.494886+00:00",
+  "completed": true,
+  "git_revision": "0778ca3463441dae022580468797187051596ce5",
+  "input_dir": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512",
+  "output_dir": "/data/lvzhengshu/FOT/outputs/fot-real50/formal",
+  "checkpoint": "/data/lvzhengshu/FOT/checkpoints/fot-mini-512/best.pt",
+  "checkpoint_sha256": "670b6f8f354917e7f9ffffbbc8f3ef20363bdbbada73344d2925af90478e6c59",
+  "dataset_manifest": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/manifest.json",
+  "dataset_manifest_sha256": "37aafda0707efeabd1c65120b55886e34367f62efc9c1180ce7735fe7f7dadf5",
+  "settings": {
+    "size": 512,
+    "template_channels": 32,
+    "motion_channels": 32,
+    "motion_chunk_size": 2,
+    "mock": false,
+    "local_files_only": true,
+    "cuda_visible_devices": "5"
+  },
+  "images": [
+    {
+      "name": "animal/animal_01.png",
+      "status": "ok",
+      "seconds": 27.696498075965792,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "animal/animal_02.png",
+      "status": "ok",
+      "seconds": 26.77196498902049,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "animal/animal_03.png",
+      "status": "ok",
+      "seconds": 26.621141063980758,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "animal/animal_04.png",
+      "status": "ok",
+      "seconds": 53.185060139978305,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "animal/animal_05.png",
+      "status": "ok",
+      "seconds": 37.7385701140156,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "animal/animal_06.png",
+      "status": "ok",
+      "seconds": 43.26305943692569,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "animal/animal_07.png",
+      "status": "ok",
+      "seconds": 43.599209237028845,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "animal/animal_08.png",
+      "status": "ok",
+      "seconds": 43.33739322202746,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "animal/animal_09.png",
+      "status": "ok",
+      "seconds": 43.63421571999788,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "animal/animal_10.png",
+      "status": "ok",
+      "seconds": 42.787452428019606,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "camera/camera_01.png",
+      "status": "ok",
+      "seconds": 43.36063800600823,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "camera/camera_02.png",
+      "status": "ok",
+      "seconds": 43.17505607102066,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "camera/camera_03.png",
+      "status": "ok",
+      "seconds": 42.80639690102544,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "camera/camera_04.png",
+      "status": "ok",
+      "seconds": 43.189111279090866,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "camera/camera_05.png",
+      "status": "ok",
+      "seconds": 42.95829537103418,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "camera/camera_06.png",
+      "status": "ok",
+      "seconds": 43.79311404703185,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "camera/camera_07.png",
+      "status": "ok",
+      "seconds": 43.68913364503533,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "camera/camera_08.png",
+      "status": "ok",
+      "seconds": 43.127639389946125,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "camera/camera_09.png",
+      "status": "ok",
+      "seconds": 42.826612704084255,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "camera/camera_10.png",
+      "status": "ok",
+      "seconds": 42.90468932990916,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "face/face_01.png",
+      "status": "ok",
+      "seconds": 43.783793215989135,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "face/face_02.png",
+      "status": "ok",
+      "seconds": 43.42396365501918,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "face/face_03.png",
+      "status": "ok",
+      "seconds": 43.36386260902509,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "face/face_04.png",
+      "status": "ok",
+      "seconds": 43.3104852179531,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "face/face_05.png",
+      "status": "ok",
+      "seconds": 43.00617622199934,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "face/face_06.png",
+      "status": "ok",
+      "seconds": 37.33828451309819,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "face/face_07.png",
+      "status": "ok",
+      "seconds": 32.292221958050504,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "face/face_08.png",
+      "status": "ok",
+      "seconds": 32.318101405981,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "face/face_09.png",
+      "status": "ok",
+      "seconds": 31.945911012007855,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "face/face_10.png",
+      "status": "ok",
+      "seconds": 32.11324815405533,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "human_environment/human_environment_01.png",
+      "status": "ok",
+      "seconds": 32.772749291034415,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "human_environment/human_environment_02.png",
+      "status": "ok",
+      "seconds": 31.564817168051377,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "human_environment/human_environment_03.png",
+      "status": "ok",
+      "seconds": 32.3999745240435,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "human_environment/human_environment_04.png",
+      "status": "ok",
+      "seconds": 32.156459630001336,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "human_environment/human_environment_05.png",
+      "status": "ok",
+      "seconds": 31.518993961974047,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "human_environment/human_environment_06.png",
+      "status": "ok",
+      "seconds": 43.284816529019736,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "human_environment/human_environment_07.png",
+      "status": "ok",
+      "seconds": 43.161318804952316,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "human_environment/human_environment_08.png",
+      "status": "ok",
+      "seconds": 43.02649759897031,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "human_environment/human_environment_09.png",
+      "status": "ok",
+      "seconds": 42.81565398094244,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "human_environment/human_environment_10.png",
+      "status": "ok",
+      "seconds": 42.779984434950165,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "multi_human/multi_human_01.png",
+      "status": "ok",
+      "seconds": 43.06294698105194,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "multi_human/multi_human_02.png",
+      "status": "ok",
+      "seconds": 43.12992432701867,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "multi_human/multi_human_03.png",
+      "status": "ok",
+      "seconds": 42.494670839980245,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "multi_human/multi_human_04.png",
+      "status": "ok",
+      "seconds": 42.491463543032296,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "multi_human/multi_human_05.png",
+      "status": "ok",
+      "seconds": 42.261002076091245,
+      "max_cuda_memory_bytes": 17172448768
+    },
+    {
+      "name": "multi_human/multi_human_06.png",
+      "status": "ok",
+      "seconds": 43.24873968597967,
+      "max_cuda_memory_bytes": 17172710912
+    },
+    {
+      "name": "multi_human/multi_human_07.png",
+      "status": "ok",
+      "seconds": 43.51169528905302,
+      "max_cuda_memory_bytes": 17173857792
+    },
+    {
+      "name": "multi_human/multi_human_08.png",
+      "status": "ok",
+      "seconds": 43.108599278959446,
+      "max_cuda_memory_bytes": 17172547072
+    },
+    {
+      "name": "multi_human/multi_human_09.png",
+      "status": "ok",
+      "seconds": 42.297226045047864,
+      "max_cuda_memory_bytes": 17171236352
+    },
+    {
+      "name": "multi_human/multi_human_10.png",
+      "status": "ok",
+      "seconds": 42.59989964205306,
+      "max_cuda_memory_bytes": 17172448768
+    }
+  ]
+}

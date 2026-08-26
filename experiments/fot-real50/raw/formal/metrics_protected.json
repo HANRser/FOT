@@ -1,0 +1,381 @@
+{
+  "count": 50,
+  "summary": {
+    "psnr": {
+      "mean": 35.51939605712891,
+      "std": 1.1613941698503167,
+      "min": 33.22606658935547,
+      "max": 38.265716552734375
+    },
+    "ssim": {
+      "mean": 0.9390742695331573,
+      "std": 0.034078642393297914,
+      "min": 0.784519374370575,
+      "max": 0.992022693157196
+    },
+    "lpips": {
+      "mean": 0.07918356100097299,
+      "std": 0.06058438758542458,
+      "min": 0.00945807434618473,
+      "max": 0.2742694914340973
+    },
+    "clip_similarity": {
+      "mean": 0.9605286204814911,
+      "std": 0.03003548097875021,
+      "min": 0.8717129230499268,
+      "max": 0.9971902370452881
+    }
+  },
+  "per_image": [
+    {
+      "name": "animal/animal_01.png",
+      "psnr": 35.83214569091797,
+      "ssim": 0.9758146405220032,
+      "lpips": 0.01541490014642477,
+      "clip_similarity": 0.9958317279815674
+    },
+    {
+      "name": "animal/animal_02.png",
+      "psnr": 37.322174072265625,
+      "ssim": 0.974159300327301,
+      "lpips": 0.03339715301990509,
+      "clip_similarity": 0.9916855692863464
+    },
+    {
+      "name": "animal/animal_03.png",
+      "psnr": 37.17591857910156,
+      "ssim": 0.9817336201667786,
+      "lpips": 0.01865285634994507,
+      "clip_similarity": 0.9895331859588623
+    },
+    {
+      "name": "animal/animal_04.png",
+      "psnr": 35.209991455078125,
+      "ssim": 0.9082169532775879,
+      "lpips": 0.10347307473421097,
+      "clip_similarity": 0.9788426160812378
+    },
+    {
+      "name": "animal/animal_05.png",
+      "psnr": 36.69818878173828,
+      "ssim": 0.9723560810089111,
+      "lpips": 0.03412116691470146,
+      "clip_similarity": 0.9800476431846619
+    },
+    {
+      "name": "animal/animal_06.png",
+      "psnr": 38.265716552734375,
+      "ssim": 0.9874188303947449,
+      "lpips": 0.009670156985521317,
+      "clip_similarity": 0.9971902370452881
+    },
+    {
+      "name": "animal/animal_07.png",
+      "psnr": 33.22606658935547,
+      "ssim": 0.8937685489654541,
+      "lpips": 0.2569066882133484,
+      "clip_similarity": 0.9731084704399109
+    },
+    {
+      "name": "animal/animal_08.png",
+      "psnr": 34.26194763183594,
+      "ssim": 0.9283787608146667,
+      "lpips": 0.08537355810403824,
+      "clip_similarity": 0.954221785068512
+    },
+    {
+      "name": "animal/animal_09.png",
+      "psnr": 36.84642791748047,
+      "ssim": 0.9755364060401917,
+      "lpips": 0.022125115618109703,
+      "clip_similarity": 0.98599773645401
+    },
+    {
+      "name": "animal/animal_10.png",
+      "psnr": 34.02760696411133,
+      "ssim": 0.9218900799751282,
+      "lpips": 0.13220714032649994,
+      "clip_similarity": 0.9479466676712036
+    },
+    {
+      "name": "camera/camera_01.png",
+      "psnr": 34.789424896240234,
+      "ssim": 0.9441855549812317,
+      "lpips": 0.1103639155626297,
+      "clip_similarity": 0.9167361259460449
+    },
+    {
+      "name": "camera/camera_02.png",
+      "psnr": 37.0573844909668,
+      "ssim": 0.9792701601982117,
+      "lpips": 0.026152973994612694,
+      "clip_similarity": 0.9726088047027588
+    },
+    {
+      "name": "camera/camera_03.png",
+      "psnr": 36.59153366088867,
+      "ssim": 0.9742947220802307,
+      "lpips": 0.02071044221520424,
+      "clip_similarity": 0.9671397805213928
+    },
+    {
+      "name": "camera/camera_04.png",
+      "psnr": 34.60850524902344,
+      "ssim": 0.9220154881477356,
+      "lpips": 0.1937466561794281,
+      "clip_similarity": 0.9285221695899963
+    },
+    {
+      "name": "camera/camera_05.png",
+      "psnr": 35.15912628173828,
+      "ssim": 0.9395766854286194,
+      "lpips": 0.07030051946640015,
+      "clip_similarity": 0.9452670812606812
+    },
+    {
+      "name": "camera/camera_06.png",
+      "psnr": 34.9263916015625,
+      "ssim": 0.949066162109375,
+      "lpips": 0.09512180089950562,
+      "clip_similarity": 0.9467291831970215
+    },
+    {
+      "name": "camera/camera_07.png",
+      "psnr": 33.70694351196289,
+      "ssim": 0.9245842099189758,
+      "lpips": 0.14264357089996338,
+      "clip_similarity": 0.8773125410079956
+    },
+    {
+      "name": "camera/camera_08.png",
+      "psnr": 34.985023498535156,
+      "ssim": 0.946997344493866,
+      "lpips": 0.0831255093216896,
+      "clip_similarity": 0.9548934698104858
+    },
+    {
+      "name": "camera/camera_09.png",
+      "psnr": 36.621585845947266,
+      "ssim": 0.972296953201294,
+      "lpips": 0.027635449543595314,
+      "clip_similarity": 0.9874155521392822
+    },
+    {
+      "name": "camera/camera_10.png",
+      "psnr": 35.0966911315918,
+      "ssim": 0.9312195777893066,
+      "lpips": 0.09484310448169708,
+      "clip_similarity": 0.9676516652107239
+    },
+    {
+      "name": "face/face_01.png",
+      "psnr": 34.37401580810547,
+      "ssim": 0.9182302355766296,
+      "lpips": 0.14307887852191925,
+      "clip_similarity": 0.8876566886901855
+    },
+    {
+      "name": "face/face_02.png",
+      "psnr": 35.73700714111328,
+      "ssim": 0.9669772982597351,
+      "lpips": 0.025097325444221497,
+      "clip_similarity": 0.9627566337585449
+    },
+    {
+      "name": "face/face_03.png",
+      "psnr": 35.12158203125,
+      "ssim": 0.929760754108429,
+      "lpips": 0.053011368960142136,
+      "clip_similarity": 0.975317656993866
+    },
+    {
+      "name": "face/face_04.png",
+      "psnr": 35.02094650268555,
+      "ssim": 0.9228239059448242,
+      "lpips": 0.17430569231510162,
+      "clip_similarity": 0.8717129230499268
+    },
+    {
+      "name": "face/face_05.png",
+      "psnr": 33.342811584472656,
+      "ssim": 0.9041737914085388,
+      "lpips": 0.14618562161922455,
+      "clip_similarity": 0.9029195308685303
+    },
+    {
+      "name": "face/face_06.png",
+      "psnr": 35.773338317871094,
+      "ssim": 0.931605875492096,
+      "lpips": 0.07645532488822937,
+      "clip_similarity": 0.957720935344696
+    },
+    {
+      "name": "face/face_07.png",
+      "psnr": 35.72650146484375,
+      "ssim": 0.9428722262382507,
+      "lpips": 0.07780648022890091,
+      "clip_similarity": 0.9645478129386902
+    },
+    {
+      "name": "face/face_08.png",
+      "psnr": 35.339111328125,
+      "ssim": 0.9452977776527405,
+      "lpips": 0.09250458329916,
+      "clip_similarity": 0.9486210346221924
+    },
+    {
+      "name": "face/face_09.png",
+      "psnr": 35.43232727050781,
+      "ssim": 0.9406479001045227,
+      "lpips": 0.07026441395282745,
+      "clip_similarity": 0.9363852739334106
+    },
+    {
+      "name": "face/face_10.png",
+      "psnr": 34.540443420410156,
+      "ssim": 0.930576503276825,
+      "lpips": 0.1025029718875885,
+      "clip_similarity": 0.9107981324195862
+    },
+    {
+      "name": "human_environment/human_environment_01.png",
+      "psnr": 34.88139724731445,
+      "ssim": 0.9383633732795715,
+      "lpips": 0.06561097502708435,
+      "clip_similarity": 0.9924002885818481
+    },
+    {
+      "name": "human_environment/human_environment_02.png",
+      "psnr": 34.58372116088867,
+      "ssim": 0.9323771595954895,
+      "lpips": 0.10922461748123169,
+      "clip_similarity": 0.9869425296783447
+    },
+    {
+      "name": "human_environment/human_environment_03.png",
+      "psnr": 35.43339538574219,
+      "ssim": 0.9356534481048584,
+      "lpips": 0.0336216501891613,
+      "clip_similarity": 0.9383326768875122
+    },
+    {
+      "name": "human_environment/human_environment_04.png",
+      "psnr": 37.02091598510742,
+      "ssim": 0.9673131108283997,
+      "lpips": 0.04982937127351761,
+      "clip_similarity": 0.986930251121521
+    },
+    {
+      "name": "human_environment/human_environment_05.png",
+      "psnr": 35.53512191772461,
+      "ssim": 0.9167961478233337,
+      "lpips": 0.06904342770576477,
+      "clip_similarity": 0.9617283344268799
+    },
+    {
+      "name": "human_environment/human_environment_06.png",
+      "psnr": 36.98429870605469,
+      "ssim": 0.9764160513877869,
+      "lpips": 0.00945807434618473,
+      "clip_similarity": 0.9719060063362122
+    },
+    {
+      "name": "human_environment/human_environment_07.png",
+      "psnr": 36.248268127441406,
+      "ssim": 0.9520613551139832,
+      "lpips": 0.06026458367705345,
+      "clip_similarity": 0.9751920700073242
+    },
+    {
+      "name": "human_environment/human_environment_08.png",
+      "psnr": 33.810028076171875,
+      "ssim": 0.8906553387641907,
+      "lpips": 0.19240215420722961,
+      "clip_similarity": 0.9556536674499512
+    },
+    {
+      "name": "human_environment/human_environment_09.png",
+      "psnr": 34.7249641418457,
+      "ssim": 0.784519374370575,
+      "lpips": 0.10954545438289642,
+      "clip_similarity": 0.9519042372703552
+    },
+    {
+      "name": "human_environment/human_environment_10.png",
+      "psnr": 36.587921142578125,
+      "ssim": 0.949038565158844,
+      "lpips": 0.04317189380526543,
+      "clip_similarity": 0.9494757056236267
+    },
+    {
+      "name": "multi_human/multi_human_01.png",
+      "psnr": 34.55918502807617,
+      "ssim": 0.9263262152671814,
+      "lpips": 0.07179584354162216,
+      "clip_similarity": 0.9849847555160522
+    },
+    {
+      "name": "multi_human/multi_human_02.png",
+      "psnr": 35.36387634277344,
+      "ssim": 0.9451072812080383,
+      "lpips": 0.049846649169921875,
+      "clip_similarity": 0.9724799990653992
+    },
+    {
+      "name": "multi_human/multi_human_03.png",
+      "psnr": 34.73332977294922,
+      "ssim": 0.9385090470314026,
+      "lpips": 0.10078220069408417,
+      "clip_similarity": 0.9672942757606506
+    },
+    {
+      "name": "multi_human/multi_human_04.png",
+      "psnr": 36.13868713378906,
+      "ssim": 0.9113141894340515,
+      "lpips": 0.038955315947532654,
+      "clip_similarity": 0.9704871773719788
+    },
+    {
+      "name": "multi_human/multi_human_05.png",
+      "psnr": 36.183284759521484,
+      "ssim": 0.9649119973182678,
+      "lpips": 0.03262840211391449,
+      "clip_similarity": 0.9914827346801758
+    },
+    {
+      "name": "multi_human/multi_human_06.png",
+      "psnr": 37.19890594482422,
+      "ssim": 0.9702332615852356,
+      "lpips": 0.015667354688048363,
+      "clip_similarity": 0.9830991625785828
+    },
+    {
+      "name": "multi_human/multi_human_07.png",
+      "psnr": 35.44657897949219,
+      "ssim": 0.9245865941047668,
+      "lpips": 0.04725765436887741,
+      "clip_similarity": 0.9752494692802429
+    },
+    {
+      "name": "multi_human/multi_human_08.png",
+      "psnr": 33.82358169555664,
+      "ssim": 0.8979552388191223,
+      "lpips": 0.2742694914340973,
+      "clip_similarity": 0.9570311903953552
+    },
+    {
+      "name": "multi_human/multi_human_09.png",
+      "psnr": 37.435543060302734,
+      "ssim": 0.992022693157196,
+      "lpips": 0.013842757791280746,
+      "clip_similarity": 0.9965032935142517
+    },
+    {
+      "name": "multi_human/multi_human_10.png",
+      "psnr": 36.45991897583008,
+      "ssim": 0.9038066864013672,
+      "lpips": 0.034761764109134674,
+      "clip_similarity": 0.9802345633506775
+    }
+  ]
+}

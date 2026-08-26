@@ -1,0 +1,66 @@
+{
+  "count": 5,
+  "summary": {
+    "psnr": {
+      "mean": 16.443973541259766,
+      "std": 4.724695308169404,
+      "min": 12.470072746276855,
+      "max": 25.54050636291504
+    },
+    "ssim": {
+      "mean": 0.5108088791370392,
+      "std": 0.13660799473733543,
+      "min": 0.3546857535839081,
+      "max": 0.7159619331359863
+    },
+    "lpips": {
+      "mean": 0.43898718655109403,
+      "std": 0.11604719604282153,
+      "min": 0.24693049490451813,
+      "max": 0.5634598731994629
+    },
+    "clip_similarity": {
+      "mean": 0.8530364751815795,
+      "std": 0.05859642534931193,
+      "min": 0.7911463379859924,
+      "max": 0.9369840025901794
+    }
+  },
+  "per_image": [
+    {
+      "name": "human_environment/human_environment_01.png",
+      "psnr": 16.320796966552734,
+      "ssim": 0.5625802874565125,
+      "lpips": 0.40170523524284363,
+      "clip_similarity": 0.9095984101295471
+    },
+    {
+      "name": "human_environment/human_environment_02.png",
+      "psnr": 14.474567413330078,
+      "ssim": 0.5580959320068359,
+      "lpips": 0.4279097020626068,
+      "clip_similarity": 0.8141611218452454
+    },
+    {
+      "name": "human_environment/human_environment_03.png",
+      "psnr": 13.413924217224121,
+      "ssim": 0.3546857535839081,
+      "lpips": 0.5549306273460388,
+      "clip_similarity": 0.8132925033569336
+    },
+    {
+      "name": "human_environment/human_environment_04.png",
+      "psnr": 12.470072746276855,
+      "ssim": 0.3627204895019531,
+      "lpips": 0.5634598731994629,
+      "clip_similarity": 0.7911463379859924
+    },
+    {
+      "name": "human_environment/human_environment_05.png",
+      "psnr": 25.54050636291504,
+      "ssim": 0.7159619331359863,
+      "lpips": 0.24693049490451813,
+      "clip_similarity": 0.9369840025901794
+    }
+  ]
+}

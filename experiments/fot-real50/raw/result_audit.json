@@ -1,0 +1,235 @@
+{
+  "passed": true,
+  "expected_count": 50,
+  "formal_complete_marker": true,
+  "errors": [],
+  "outputs": {
+    "protected": {
+      "count": 50,
+      "missing": [],
+      "extra": [],
+      "unreadable": []
+    },
+    "forged": {
+      "count": 50,
+      "missing": [],
+      "extra": [],
+      "unreadable": []
+    },
+    "recovered": {
+      "count": 50,
+      "missing": [],
+      "extra": [],
+      "unreadable": []
+    },
+    "confidence": {
+      "count": 50,
+      "missing": [],
+      "extra": [],
+      "unreadable": []
+    }
+  },
+  "run": {
+    "count": 50,
+    "ok": 50,
+    "errors": []
+  },
+  "chunks": [
+    {
+      "name": "chunk_001",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "animal/animal_01.png",
+        "animal/animal_02.png",
+        "animal/animal_03.png",
+        "animal/animal_04.png",
+        "animal/animal_05.png"
+      ]
+    },
+    {
+      "name": "chunk_002",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "animal/animal_06.png",
+        "animal/animal_07.png",
+        "animal/animal_08.png",
+        "animal/animal_09.png",
+        "animal/animal_10.png"
+      ]
+    },
+    {
+      "name": "chunk_003",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "camera/camera_01.png",
+        "camera/camera_02.png",
+        "camera/camera_03.png",
+        "camera/camera_04.png",
+        "camera/camera_05.png"
+      ]
+    },
+    {
+      "name": "chunk_004",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "camera/camera_06.png",
+        "camera/camera_07.png",
+        "camera/camera_08.png",
+        "camera/camera_09.png",
+        "camera/camera_10.png"
+      ]
+    },
+    {
+      "name": "chunk_005",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "face/face_01.png",
+        "face/face_02.png",
+        "face/face_03.png",
+        "face/face_04.png",
+        "face/face_05.png"
+      ]
+    },
+    {
+      "name": "chunk_006",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "face/face_06.png",
+        "face/face_07.png",
+        "face/face_08.png",
+        "face/face_09.png",
+        "face/face_10.png"
+      ]
+    },
+    {
+      "name": "chunk_007",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "human_environment/human_environment_01.png",
+        "human_environment/human_environment_02.png",
+        "human_environment/human_environment_03.png",
+        "human_environment/human_environment_04.png",
+        "human_environment/human_environment_05.png"
+      ]
+    },
+    {
+      "name": "chunk_008",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "human_environment/human_environment_06.png",
+        "human_environment/human_environment_07.png",
+        "human_environment/human_environment_08.png",
+        "human_environment/human_environment_09.png",
+        "human_environment/human_environment_10.png"
+      ]
+    },
+    {
+      "name": "chunk_009",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "multi_human/multi_human_01.png",
+        "multi_human/multi_human_02.png",
+        "multi_human/multi_human_03.png",
+        "multi_human/multi_human_04.png",
+        "multi_human/multi_human_05.png"
+      ]
+    },
+    {
+      "name": "chunk_010",
+      "complete_marker": true,
+      "protected_count": 5,
+      "recovered_count": 5,
+      "images": [
+        "multi_human/multi_human_06.png",
+        "multi_human/multi_human_07.png",
+        "multi_human/multi_human_08.png",
+        "multi_human/multi_human_09.png",
+        "multi_human/multi_human_10.png"
+      ]
+    }
+  ],
+  "chunk_partition": {
+    "count": 50,
+    "missing": [],
+    "extra": [],
+    "duplicates": []
+  },
+  "full_metrics": {
+    "protected": {
+      "count": 50,
+      "summary": {
+        "psnr": {
+          "mean": 35.51939605712891,
+          "std": 1.1613941698503167,
+          "min": 33.22606658935547,
+          "max": 38.265716552734375
+        },
+        "ssim": {
+          "mean": 0.9390742695331573,
+          "std": 0.034078642393297914,
+          "min": 0.784519374370575,
+          "max": 0.992022693157196
+        },
+        "lpips": {
+          "mean": 0.07918356100097299,
+          "std": 0.06058438758542458,
+          "min": 0.00945807434618473,
+          "max": 0.2742694914340973
+        },
+        "clip_similarity": {
+          "mean": 0.9605286204814911,
+          "std": 0.03003548097875021,
+          "min": 0.8717129230499268,
+          "max": 0.9971902370452881
+        }
+      }
+    },
+    "recovered": {
+      "count": 50,
+      "summary": {
+        "psnr": {
+          "mean": 19.692300500869752,
+          "std": 5.813869042023014,
+          "min": 7.8771233558654785,
+          "max": 32.7033805847168
+        },
+        "ssim": {
+          "mean": 0.5654561930894851,
+          "std": 0.1929436830095097,
+          "min": 0.1244458556175232,
+          "max": 0.8438685536384583
+        },
+        "lpips": {
+          "mean": 0.42897285416722297,
+          "std": 0.14799561770789196,
+          "min": 0.09019521623849869,
+          "max": 0.7396218180656433
+        },
+        "clip_similarity": {
+          "mean": 0.8749352812767028,
+          "std": 0.06239696154880242,
+          "min": 0.7489452958106995,
+          "max": 0.9870911240577698
+        }
+      }
+    }
+  }
+}
