@@ -17,5 +17,6 @@ results/
 data/raw/
 data/processed/
 data/manifests/
+data/benchmarks/
 *.ckpt
 *.safetensors
