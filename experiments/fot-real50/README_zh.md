@@ -69,6 +69,10 @@ Camera 和 Face 的像素恢复指标最好；Multi-Human 最弱。这个趋势�
 
 ## 结果文件
 
+- [`comparisons/README_zh.md`](comparisons/README_zh.md)：50 张图片的
+  Original / Protected / Forged / Confidence / Recovered 五列可视化对比表；
+- `comparisons/comparison_manifest.csv/json`：对比表清单、尺寸、亮度和哈希；
+- `comparisons/comparison_generation.log`：250 个来源文件的逐项生成日志；
 - `raw/formal/metrics_protected.json/csv`：50 张保护图逐图指标及汇总；
 - `raw/formal/metrics_recovered.json/csv`：50 张恢复图逐图指标及汇总；
 - `raw/formal/run.json`：checkpoint、数据清单哈希、逐图耗时和显存记录；

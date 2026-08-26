@@ -1,0 +1,2871 @@
+{
+  "generated_at": "2026-08-26T12:28:09.865626+00:00",
+  "git_revision": "2803cd58c3fb8ba93e7601af651c3b4ff0af0d5e",
+  "checkpoint_sha256": "670b6f8f354917e7f9ffffbbc8f3ef20363bdbbada73344d2925af90478e6c59",
+  "dataset_manifest_sha256": "37aafda0707efeabd1c65120b55886e34367f62efc9c1180ce7735fe7f7dadf5",
+  "count": 50,
+  "columns": [
+    "original",
+    "protected",
+    "forged",
+    "confidence",
+    "recovered"
+  ],
+  "thumbnail": {
+    "format": "WEBP",
+    "size": 224,
+    "quality": 86
+  },
+  "records": [
+    {
+      "id": "animal_01",
+      "category": "animal",
+      "relative_path": "animal/animal_01.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_01.png",
+          "thumbnail": "thumbnails/original/animal/animal_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3798867464065552,
+          "source_sha256": "c2d9015285e586fd6f03810f21754fdce66a667cfdc08ea2f8cb6f8a610565ca",
+          "thumbnail_sha256": "b97cce4aed8f24595c1b673d74d78369c872f3d67c43de3a5e93b139089ba88e",
+          "thumbnail_bytes": 13934
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_01.png",
+          "thumbnail": "thumbnails/protected/animal/animal_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.38057366013526917,
+          "source_sha256": "9d38adf3c55904f3648259e852b5b12048e288aaa7c3dd4d48c6443ff8331d09",
+          "thumbnail_sha256": "173dfd924fc1d6334c5bada80a9ab6720c400c0609770b07d52b8b6821e8747b",
+          "thumbnail_bytes": 14950
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_01.png",
+          "thumbnail": "thumbnails/forged/animal/animal_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.3730636239051819,
+          "source_sha256": "27a3317a7c291c62bec1c0af3f63f490696b5b4f6540bdf517aab80b6dd91ca2",
+          "thumbnail_sha256": "f332e775ac081865afc9b10e4d65261015dddf284730f01dce7d01b6974dffe6",
+          "thumbnail_bytes": 9896
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_01.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0006417863769456744,
+          "source_sha256": "256c7332454a0824f3609da25600d53080d498e58852e2f07290773bb956f04f",
+          "thumbnail_sha256": "9de2e6085c4e0828ce48aee9cdce1ec02564b703a544e8cf616ed70c019d6094",
+          "thumbnail_bytes": 218
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_01.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.37148308753967285,
+          "source_sha256": "8aea84d40f172779b5f7ceb69595aa508faa8463243d45ef873b245e996a536e",
+          "thumbnail_sha256": "d0556d6afe74560eb6cf76221570dfad88ccbe31a7c9cc3f440c9a938e85e3ba",
+          "thumbnail_bytes": 16468
+        }
+      }
+    },
+    {
+      "id": "animal_02",
+      "category": "animal",
+      "relative_path": "animal/animal_02.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_02.png",
+          "thumbnail": "thumbnails/original/animal/animal_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.30191799998283386,
+          "source_sha256": "a6d00718f83e59d787f66e4c8d9dd681c893ec24476d947915ecba72d03d7e74",
+          "thumbnail_sha256": "949497860f98dc770719daf2aec6b0847655376c325ebb399a1d9c16b9aa9e0b",
+          "thumbnail_bytes": 10962
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_02.png",
+          "thumbnail": "thumbnails/protected/animal/animal_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.30419039726257324,
+          "source_sha256": "baef1e31ff2ece1b70056f20a636292c10592a3bd1d51b9e760ec7075457441d",
+          "thumbnail_sha256": "30b6a35745e6ff1b6585646673c7c466e01426dbb73d669bacc186c58dabd850",
+          "thumbnail_bytes": 12196
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_02.png",
+          "thumbnail": "thumbnails/forged/animal/animal_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.29846590757369995,
+          "source_sha256": "549a4c9d77c37481f4f8c196ea14e22413446797aed82709e8c25e582682904d",
+          "thumbnail_sha256": "9e99b0cc298f51a4f7e0262304f7ac3f4af4229e234b8578b4972eef91549eeb",
+          "thumbnail_bytes": 8036
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_02.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 4.8469100875081494e-06,
+          "source_sha256": "8603d9fb1a7347e9ac7747fe722dfb1852765befb5fb8f8aec89e53e75fbe89a",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_02.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2915399372577667,
+          "source_sha256": "c7e3fb3d57516ed1c52fbfac777d37fb4523ec4882a035bacd2213e832ef0651",
+          "thumbnail_sha256": "52aba1caa61c615661e11d7fc3b570e5911713a3fc327aefdb58d349eaace53d",
+          "thumbnail_bytes": 7336
+        }
+      }
+    },
+    {
+      "id": "animal_03",
+      "category": "animal",
+      "relative_path": "animal/animal_03.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_03.png",
+          "thumbnail": "thumbnails/original/animal/animal_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4829815626144409,
+          "source_sha256": "6458ec35c41dd61ae88fcb9572830ab4bef471b29c59193803527a39fc953989",
+          "thumbnail_sha256": "2068c5696acd383b6f01c38b533358e4d7ec66a9b456fb0b9bff1dd377461aa2",
+          "thumbnail_bytes": 15936
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_03.png",
+          "thumbnail": "thumbnails/protected/animal/animal_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.48333048820495605,
+          "source_sha256": "2fd36bc781b4c6077853a81f22a882d4c9f8308caedeca902d9bb6766fb9d07f",
+          "thumbnail_sha256": "d9c2d178cf936571d487d4b279d50d9fdeed8bb7d02bf9907f189c8dd2ad1277",
+          "thumbnail_bytes": 16990
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_03.png",
+          "thumbnail": "thumbnails/forged/animal/animal_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.4993402361869812,
+          "source_sha256": "d926c0d9f156566d64ebf3027f9dba05402e847d31905781b4e9f4ddadd75540",
+          "thumbnail_sha256": "fcf70ee560e2178c205420531bdb47718406b424990efad650e0a143a9de78d7",
+          "thumbnail_bytes": 11058
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_03.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 8.316863386426121e-05,
+          "source_sha256": "10dd66a62572371c6ffe1649e34644838a8e906747915d1336f74d741e07273d",
+          "thumbnail_sha256": "1b718a420a108d8885248447c254309a0f64f5056847d15c0f0482c1edb1b64b",
+          "thumbnail_bytes": 202
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_03.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4694724977016449,
+          "source_sha256": "653018a33455c20291a672000e9dedb22bac8f7ae6a53f4534afecde05d6fcbc",
+          "thumbnail_sha256": "b0c5971a2976aec9d321bf7bf12084b00ee8aba272f6f798930923f0c42d68e6",
+          "thumbnail_bytes": 8568
+        }
+      }
+    },
+    {
+      "id": "animal_04",
+      "category": "animal",
+      "relative_path": "animal/animal_04.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_04.png",
+          "thumbnail": "thumbnails/original/animal/animal_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.24824661016464233,
+          "source_sha256": "84f6c7319f605b6cd82170f8b422215e7e6fbf05d1004298a9ab2bd22b7e0f9c",
+          "thumbnail_sha256": "344c7587cfd6b5355fd4af73542d0ecfb6ad598dc44432db938f52a7b9f92053",
+          "thumbnail_bytes": 7252
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_04.png",
+          "thumbnail": "thumbnails/protected/animal/animal_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2520069181919098,
+          "source_sha256": "8e09d7d6f8f30349d80ab3190fcdb0e4ffce75698221891cfcc48480f094fc5c",
+          "thumbnail_sha256": "b6d817c1d422522c8fb0b5d39605758baf58136046fbdbadd27ed2978e04649d",
+          "thumbnail_bytes": 8532
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_04.png",
+          "thumbnail": "thumbnails/forged/animal/animal_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.2588794529438019,
+          "source_sha256": "6e0e1da6b3557c97003e0ff67ee3565c622b246fcc9230d4cfb58fd2b733b8b2",
+          "thumbnail_sha256": "3ca013e55f43e074716df44237dab0fc53e75d67471f7b1d2a585197154b398b",
+          "thumbnail_bytes": 5772
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_04.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 2.7040267013944685e-05,
+          "source_sha256": "717d4b39959517c74f94141a76b5fc9635009fed50846da163cf6bc074e7840a",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_04.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.25300583243370056,
+          "source_sha256": "58ba597abc4d50717896a183e04397a8a637c4c948540df173efe0ddfcc9344f",
+          "thumbnail_sha256": "d60764557796920ab37633a55e190fe78f2065e727d56e0ec1155cd639abdf98",
+          "thumbnail_bytes": 6480
+        }
+      }
+    },
+    {
+      "id": "animal_05",
+      "category": "animal",
+      "relative_path": "animal/animal_05.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_05.png",
+          "thumbnail": "thumbnails/original/animal/animal_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.40764370560646057,
+          "source_sha256": "fc8b138a3569e20b19435b005f7bbc8482a1b8912a09a7b9e2fc01f22eeedc86",
+          "thumbnail_sha256": "1940a146238cc62392ab54d028ce5ffaa8ff1c840366665e57f1c1a4a47520f2",
+          "thumbnail_bytes": 13410
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_05.png",
+          "thumbnail": "thumbnails/protected/animal/animal_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4076295793056488,
+          "source_sha256": "0a7dfbecd832ae241760d226860e47157063925eade2156964c87a06db75eb1a",
+          "thumbnail_sha256": "5432d21ddea7af2d21e19ed95e52f7259a6101e690dffab2d0c25e9aed7abb73",
+          "thumbnail_bytes": 14616
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_05.png",
+          "thumbnail": "thumbnails/forged/animal/animal_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.3957342207431793,
+          "source_sha256": "9de1e1ece98b74568b8194cfae598464831d598af3cdd4036f339cd3b4bce3c6",
+          "thumbnail_sha256": "82d6d3f561744a0b0721a5ead2199d6382d6404ff23f01a0e2f48215077019bc",
+          "thumbnail_bytes": 9178
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_05.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 1.800466088752728e-05,
+          "source_sha256": "feccf442151bf72308333abd0c62c8ce4e807b09f8e7c53f6add057cf17510b6",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_05.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.38826170563697815,
+          "source_sha256": "ea1b6d43d7d750b18289afb9a91e209b1195d9353fb390b424f98977017abffa",
+          "thumbnail_sha256": "ae60831671b46f6c634bfcff2d2510e1e2c72a3e836d44625e29bb0e8e1589ca",
+          "thumbnail_bytes": 8848
+        }
+      }
+    },
+    {
+      "id": "animal_06",
+      "category": "animal",
+      "relative_path": "animal/animal_06.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_06.png",
+          "thumbnail": "thumbnails/original/animal/animal_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3542816936969757,
+          "source_sha256": "e76df1c39fba78ab52ce592d170c1a2de495b01aa8035d66bc69416e55523507",
+          "thumbnail_sha256": "b0feab2282277f8dbc824a99f952fe7172e776d7c1191848123b6705ff60027d",
+          "thumbnail_bytes": 18160
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_06.png",
+          "thumbnail": "thumbnails/protected/animal/animal_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.35603269934654236,
+          "source_sha256": "4a9b3c3d139ab8d9eb935155395b888996758ed3eb7e7febb555b97a6c9dbedf",
+          "thumbnail_sha256": "bafeb2ebab51b257843729d00668af60ba0b961891a3970d942b986c8595d4c1",
+          "thumbnail_bytes": 19286
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_06.png",
+          "thumbnail": "thumbnails/forged/animal/animal_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.35262778401374817,
+          "source_sha256": "885f0f35d18155d56ecf34c132eb9c35e57ffc08e1d566d9e7242a00dd7adc77",
+          "thumbnail_sha256": "0cd06cbcc20aaec29a8702e66115f850896e636383083c8dd467d2ac0c7fb3e2",
+          "thumbnail_bytes": 12020
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_06.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.01227795984596014,
+          "source_sha256": "0bdd48c28019f3315272992183ec8700753332471d5bb3c4d08d1b48650f35f1",
+          "thumbnail_sha256": "7e3e1725eeb62109ff2ab31736ab8da40e8710aedb699194b5371c811e12a93d",
+          "thumbnail_bytes": 336
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_06.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.35123762488365173,
+          "source_sha256": "f5715e99960cab5b567dfa11d351a22771dff9495694f70025fdf20ef99294be",
+          "thumbnail_sha256": "c674beb7184bf86a9e9a33228e47ca608dd0204fe954745c40edd3762dd22865",
+          "thumbnail_bytes": 19734
+        }
+      }
+    },
+    {
+      "id": "animal_07",
+      "category": "animal",
+      "relative_path": "animal/animal_07.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_07.png",
+          "thumbnail": "thumbnails/original/animal/animal_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.7722532153129578,
+          "source_sha256": "a2ff67b9c50ad572ec0b81b98affc49af5b561559c83f7d5ff244f55e1c4753c",
+          "thumbnail_sha256": "598502559d5f49997c558584a5d1d2e6d89012439cab21eb67538e3c44af6753",
+          "thumbnail_bytes": 4636
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_07.png",
+          "thumbnail": "thumbnails/protected/animal/animal_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.7676752209663391,
+          "source_sha256": "e3c1f5c2ea2bbae59ab44f1a59f72ca39904d40a347c083eb3901c391b5c62dc",
+          "thumbnail_sha256": "2e59c941fff9176efaad95ab7698a2ce4096e450918cc43ac6111cec06033271",
+          "thumbnail_bytes": 7162
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_07.png",
+          "thumbnail": "thumbnails/forged/animal/animal_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.7441702485084534,
+          "source_sha256": "f545013cf76fd387848557126e2e9f12dc57331d9c1fc7b418117b97fc842c37",
+          "thumbnail_sha256": "b220f716fba4058428d7474da30cfa6e5632b009cf2eb8c8793165112500f470",
+          "thumbnail_bytes": 6286
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_07.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.020221496000885963,
+          "source_sha256": "bb93d39ff9b34988be193ff8fa0cba607027b7570bb4b4c0d6001c4da13c5911",
+          "thumbnail_sha256": "69fce0e9e32d53c587b192bd18f95d4f40b1b50740702a823c709716df741866",
+          "thumbnail_bytes": 1250
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_07.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.7559807896614075,
+          "source_sha256": "a6024e853212cea0d4bbff4bba938640a12e5f1650a9623801deb17decf56d56",
+          "thumbnail_sha256": "04a16295bad4dbece4a53568af4a95d767690fe8180b35d78a1dcea253e9a8b2",
+          "thumbnail_bytes": 6680
+        }
+      }
+    },
+    {
+      "id": "animal_08",
+      "category": "animal",
+      "relative_path": "animal/animal_08.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_08.png",
+          "thumbnail": "thumbnails/original/animal/animal_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.48753616213798523,
+          "source_sha256": "fbfe7fd8bdb3d2ae2d615d3a963e29f160a74ba104cba6dc3f2d514334ce249d",
+          "thumbnail_sha256": "7e3eaa01505b53d80e007b57824e82fe5546d04dcd4f21595f139aff4fba8f10",
+          "thumbnail_bytes": 7538
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_08.png",
+          "thumbnail": "thumbnails/protected/animal/animal_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.48656442761421204,
+          "source_sha256": "a7116990f6b5e93fce21f42159d19bea71bd0b0d134e54832418c96dccd21f56",
+          "thumbnail_sha256": "90231ae81a21f0530484b303941662a3f19485936ae7021a303bdd012677edf3",
+          "thumbnail_bytes": 8768
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_08.png",
+          "thumbnail": "thumbnails/forged/animal/animal_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.484406441450119,
+          "source_sha256": "ccc7b6e79a79405485fd3c619eb637dde76c838b84e2ccb7f58177a3cb488524",
+          "thumbnail_sha256": "a9c55550005b11d0c2d4734e5b93df7052fe58beaf66dbace1f7eca9479aacc1",
+          "thumbnail_bytes": 7750
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_08.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 2.7133350158692338e-05,
+          "source_sha256": "0dc195c7a00f56d55d103f9a82207d0272356a321433d12e76a012653bf4a3e4",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_08.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.47348925471305847,
+          "source_sha256": "f0ea5a7456382af88312966d605f61d8ec05a750a852c25d3813b4ec3420d536",
+          "thumbnail_sha256": "dd89a42d3f0478e5bae8853307fccbb18279277e398fb91f3eb9b31ec4f3890f",
+          "thumbnail_bytes": 7952
+        }
+      }
+    },
+    {
+      "id": "animal_09",
+      "category": "animal",
+      "relative_path": "animal/animal_09.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_09.png",
+          "thumbnail": "thumbnails/original/animal/animal_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2947893440723419,
+          "source_sha256": "3e2e0e84573a1b0eaad5b2229c037686076cf417d7f21050372b609b7ebd58b8",
+          "thumbnail_sha256": "399e045c5d269c2464a99b35614e6f73c6a88ee21a3cf3ba0400360764d4854d",
+          "thumbnail_bytes": 12104
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_09.png",
+          "thumbnail": "thumbnails/protected/animal/animal_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.29670456051826477,
+          "source_sha256": "d76141270f26069b3115119a9a1c0e25b269a503d774277e8cf299a80fe61b69",
+          "thumbnail_sha256": "7e18bc9e64d94c813d14894b18589edc34dc5054f2d920954ee9b1b7d0e0371d",
+          "thumbnail_bytes": 13388
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_09.png",
+          "thumbnail": "thumbnails/forged/animal/animal_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.29587018489837646,
+          "source_sha256": "3f412be7d2fd6726cf4bf9434d45d3b0b910a21cc89057d996bdd8e5b03312d4",
+          "thumbnail_sha256": "4c0cf53ee7f386dfebf45ee37dadd62062e2a903b2f4377bc65364e45f7a33c5",
+          "thumbnail_bytes": 9732
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_09.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 6.131434201961383e-05,
+          "source_sha256": "42531107f0c61aa2457d92baefdce089fe7e7e255b86dcc7f1b8ef2b3d267a5c",
+          "thumbnail_sha256": "1cd983aaf700732877a05394e48c002bd786462324d1f06c39e7049cfd40fd91",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_09.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2885722815990448,
+          "source_sha256": "7362adb8fb2be4ba7e1b2e72eb46989b2ff994dcc31d6c1e3296d39df242524f",
+          "thumbnail_sha256": "6eebb083c00f5a43ef64ee9022ebfa4fbed805f44d368324f3ddbd683fd910a9",
+          "thumbnail_bytes": 5992
+        }
+      }
+    },
+    {
+      "id": "animal_10",
+      "category": "animal",
+      "relative_path": "animal/animal_10.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/animal/animal_10.png",
+          "thumbnail": "thumbnails/original/animal/animal_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6408835053443909,
+          "source_sha256": "12d3cef69857db62107bcb29bfd0a406f0e7bd2d749948f8d840b5a68c6ebb19",
+          "thumbnail_sha256": "3dc3fc893224e42c2267eca48f5c73c9da467658519f93b33681d933b3ec61f2",
+          "thumbnail_bytes": 7304
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/animal/animal_10.png",
+          "thumbnail": "thumbnails/protected/animal/animal_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.637209951877594,
+          "source_sha256": "ca0ae570df651a77133abb5761246c2d4879bd2f37dcf292afc77996791f2a3c",
+          "thumbnail_sha256": "8ff65bf39adbb0ccf009ad492828dad674c18e07eb437b5fd2da281280d5da5f",
+          "thumbnail_bytes": 9314
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/animal/animal_10.png",
+          "thumbnail": "thumbnails/forged/animal/animal_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.6326130628585815,
+          "source_sha256": "2b78a1d2ab839f6cefbc69da472f3914ff36abd082185d6da2790d6a40397dee",
+          "thumbnail_sha256": "b342b5e944674333442630c312398ab0b237affa58960d8f0806d4c536c03832",
+          "thumbnail_bytes": 7586
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/animal/animal_10.png",
+          "thumbnail": "thumbnails/confidence/animal/animal_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0430932492017746,
+          "source_sha256": "4c7bc09c0a9f4d28a42ac413c880b21d5c1380160e1373fc767257f280a847c8",
+          "thumbnail_sha256": "7ee9e3bc4bd147c2cf490c6ed266bc4d0f505db0374462dc680bc3e523144891",
+          "thumbnail_bytes": 1514
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/animal/animal_10.png",
+          "thumbnail": "thumbnails/recovered/animal/animal_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6326267123222351,
+          "source_sha256": "a8f48e1eb4accd1676a7bcf36b1f9358793d1c6abf481ff9954880850d06e439",
+          "thumbnail_sha256": "e3e3c3936ec3cbab83d4d5e0c1e261b88b1ecc81e4b99b9d4e1239e71ccc856e",
+          "thumbnail_bytes": 5422
+        }
+      }
+    },
+    {
+      "id": "camera_01",
+      "category": "camera",
+      "relative_path": "camera/camera_01.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_01.png",
+          "thumbnail": "thumbnails/original/camera/camera_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.30139079689979553,
+          "source_sha256": "e6157756661593b5450065ea09978a9b22556ca4fc3c899424bb530ffbfd262d",
+          "thumbnail_sha256": "f1678c6b61c3f8c8766f5e2ce7871f4cb3f0ada07b4a6ee50b676bdebb290095",
+          "thumbnail_bytes": 10618
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_01.png",
+          "thumbnail": "thumbnails/protected/camera/camera_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3031295835971832,
+          "source_sha256": "4d9b46fb97945f5d3e97b4e0cf18cbfc18dc17d728c885335897117c87fb960c",
+          "thumbnail_sha256": "b27671e77f74d8b694fbc3983f2d1fce0e9c0181099e208945e9659901e0213b",
+          "thumbnail_bytes": 12868
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_01.png",
+          "thumbnail": "thumbnails/forged/camera/camera_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.2983197569847107,
+          "source_sha256": "268801b372b77cbca750fceb229f1532f7ac426b3a524ad8fe58b10a6a01edf7",
+          "thumbnail_sha256": "0c3c997e10eca27248eae5f8dd8eb675d0d4e92895258cbb1ab3c167954c9a8c",
+          "thumbnail_bytes": 8658
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_01.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.033055685460567474,
+          "source_sha256": "2e97a43379dbc874a7e5707ad01f70cf6d84f9e8360c1b3a0ac6df3d90fab627",
+          "thumbnail_sha256": "78ee99cb98242e037640e6281c70e54234623ccfffd8bd75a6620c9af6aa4f51",
+          "thumbnail_bytes": 1126
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_01.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2993995249271393,
+          "source_sha256": "882f4b59acccc4c25d5d6e16ba435766d056bb2483db0bcefbbf2771424dad0f",
+          "thumbnail_sha256": "beb9e52a9a7db6c96bb85c65ddacf528569d3c55f0ca5c626da637c9caccb86b",
+          "thumbnail_bytes": 14182
+        }
+      }
+    },
+    {
+      "id": "camera_02",
+      "category": "camera",
+      "relative_path": "camera/camera_02.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_02.png",
+          "thumbnail": "thumbnails/original/camera/camera_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.35747992992401123,
+          "source_sha256": "a483facaa28550a0034ea5ef7d36140e93a16b16cb158daad4fca98a8eeb647b",
+          "thumbnail_sha256": "768a24ef263298899ad560ac0cf9e7cd41af515f7f142f830e070df644fc7a5b",
+          "thumbnail_bytes": 16684
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_02.png",
+          "thumbnail": "thumbnails/protected/camera/camera_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3584948480129242,
+          "source_sha256": "c834f88844f38494c1662ea36bc5b4878ac81d94198cc4f8960a3bbf2fa43ca5",
+          "thumbnail_sha256": "9e6dcca0e50f39de2c68123cb1c80a7c2d385dc7d6fb509521c91d2245f3c422",
+          "thumbnail_bytes": 17702
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_02.png",
+          "thumbnail": "thumbnails/forged/camera/camera_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.3549482226371765,
+          "source_sha256": "34dbcd9fa07676c734a0af3125bdd9e45dcc593fd1bb6d776a725b8ee69f0fa4",
+          "thumbnail_sha256": "c6da2b5d0be0732675751570ed18cb51d65008487d03da325b782f817f8d312d",
+          "thumbnail_bytes": 11158
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_02.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.03944016247987747,
+          "source_sha256": "b6a41307784022dedc1d794b98dc542f0774fe022ffe084edbadc5acb380b7ee",
+          "thumbnail_sha256": "f852c024bf9a36665870437759178b533366f1f2e1abd194f89b1e78f79f9a49",
+          "thumbnail_bytes": 1226
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_02.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3552537262439728,
+          "source_sha256": "8cc43d729c77838858c44763baf30e101952e35ef39a3abbc9aa864cd0c9851f",
+          "thumbnail_sha256": "c16fb49c9475b9de43e39288835c3e286e83bd4bcdcfcbe2ede63ee85da58651",
+          "thumbnail_bytes": 18502
+        }
+      }
+    },
+    {
+      "id": "camera_03",
+      "category": "camera",
+      "relative_path": "camera/camera_03.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_03.png",
+          "thumbnail": "thumbnails/original/camera/camera_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.36777403950691223,
+          "source_sha256": "51f5e1598a06b3f9bcdf655d850f58ea49d1743e4951e114c6f55189e009b383",
+          "thumbnail_sha256": "8edaf90b7e5183ffe20e9bfe0e3097aac278031f5eb48e30ad80709892881058",
+          "thumbnail_bytes": 13474
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_03.png",
+          "thumbnail": "thumbnails/protected/camera/camera_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3684861660003662,
+          "source_sha256": "ff7cf65e0618b906997f781ee4751529144eacd83a8e239ec224fa9101ef87f1",
+          "thumbnail_sha256": "9ba1e349a311a49b79f6a99a0b365020f73b5ae62e07456421b947c007613a3f",
+          "thumbnail_bytes": 14392
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_03.png",
+          "thumbnail": "thumbnails/forged/camera/camera_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.3664146065711975,
+          "source_sha256": "64bce5470500dcaf3e4fdd0c304f97080d2061f5ebc4513dc2c4962f705ce49b",
+          "thumbnail_sha256": "743cb69d535b453aa9e973ef757e2d1100c8b2db5fcab728041b0b3d35848044",
+          "thumbnail_bytes": 10618
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_03.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0019504454685375094,
+          "source_sha256": "97ae03d764df29a652a1d333a4db4aa7d755b314bf1f55bb56da602b4740b159",
+          "thumbnail_sha256": "72e1d96d99d88b602ea04a8d48125f9131d9d73c492fe9874522e3b0ccbe6148",
+          "thumbnail_bytes": 266
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_03.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.34941840171813965,
+          "source_sha256": "8dfddeb4a20b371d64135aa574482a7db7c9631a10ec7e63d25a991b7ef60d68",
+          "thumbnail_sha256": "77be62e4371f8cd9c707faf38f067dddb93d4027e559e5891eb76ee7dbb92697",
+          "thumbnail_bytes": 16218
+        }
+      }
+    },
+    {
+      "id": "camera_04",
+      "category": "camera",
+      "relative_path": "camera/camera_04.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_04.png",
+          "thumbnail": "thumbnails/original/camera/camera_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3495081663131714,
+          "source_sha256": "7c3e9ccfbc42378870476eb0f21a705fa04ae82f27bc874e2cbcac502b1221c7",
+          "thumbnail_sha256": "119310bd95c5fd4396e629f763bd15d6cbf95a520366902e56cfb197c4e856aa",
+          "thumbnail_bytes": 4266
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_04.png",
+          "thumbnail": "thumbnails/protected/camera/camera_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.34957635402679443,
+          "source_sha256": "ed475ca7f467ae1ec8a9a8fe31de8164984de12ad61fe606efcd05696d90d798",
+          "thumbnail_sha256": "56a84dc9c241899404711a2054e1a4ae478938f082150ef225d40d82f1090773",
+          "thumbnail_bytes": 6092
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_04.png",
+          "thumbnail": "thumbnails/forged/camera/camera_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.3450372517108917,
+          "source_sha256": "ea5781aac9b8f17c3c8cbfc621d268019962f3c0f444438938430cf952affee0",
+          "thumbnail_sha256": "e9a0afae0b8759e544bc7a1d70802bcdab0b97225d80cdb951f0c6018818b32d",
+          "thumbnail_bytes": 4634
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_04.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 1.9853003323078156e-05,
+          "source_sha256": "4b6f0f2e387415262745624be656e8fc2c5062f40359ef562ab4b08618ad381a",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_04.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.34173664450645447,
+          "source_sha256": "c199fc61a58799b123e7aad75ffe171aa4893300527e827b33e5bd48101c1907",
+          "thumbnail_sha256": "9c3099b9ea2bbca4f34200ca3c35184e012a939aff19340be7259cf2946b3ee1",
+          "thumbnail_bytes": 3902
+        }
+      }
+    },
+    {
+      "id": "camera_05",
+      "category": "camera",
+      "relative_path": "camera/camera_05.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_05.png",
+          "thumbnail": "thumbnails/original/camera/camera_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3533121645450592,
+          "source_sha256": "92695944fbaaaa5c3d12e1ab57f07404d472ab84a629e2a027b5b0440954e425",
+          "thumbnail_sha256": "b268f4fe48f2e2c061899f3baf8c64bacb3ea2dd2a0eae37a2c9b67e9158d370",
+          "thumbnail_bytes": 6462
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_05.png",
+          "thumbnail": "thumbnails/protected/camera/camera_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3547538220882416,
+          "source_sha256": "d48c0818e0e1f733f0c75c125e7ba53c67642073306b5cd459e6e7bea8fc0aa1",
+          "thumbnail_sha256": "4148493d752d6c48ec3c31ec619f9855d84726c99bdf96eb173d6d914361e6e5",
+          "thumbnail_bytes": 7742
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_05.png",
+          "thumbnail": "thumbnails/forged/camera/camera_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.42261233925819397,
+          "source_sha256": "86ec65465fb9f09bbd7b250f1f1feec0e7623b749a00ab8c04e2dd81045240ef",
+          "thumbnail_sha256": "2dbf505a02bdbd5543da961fe44199ae14592ccce6b793c15116ee3a23cf5067",
+          "thumbnail_bytes": 6362
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_05.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 2.531824429752305e-05,
+          "source_sha256": "9ce348fd3145ede764fa8f9230de086abcf3cf58091ab362189d7f16eb1d7894",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_05.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3604758083820343,
+          "source_sha256": "0c148279330463d47a19419fc1176ad9d5b16c024eb64b1794df4d0fd42d21ba",
+          "thumbnail_sha256": "16aebfecefad7e1ad83228d47f2af5bb64d0b42ff35219a76af15bce023fe7e0",
+          "thumbnail_bytes": 5562
+        }
+      }
+    },
+    {
+      "id": "camera_06",
+      "category": "camera",
+      "relative_path": "camera/camera_06.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_06.png",
+          "thumbnail": "thumbnails/original/camera/camera_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.574286162853241,
+          "source_sha256": "e09512c9adf5868bf15386f596dbd2cb5024dc1a6a6134ff8ea29a1cb43208ef",
+          "thumbnail_sha256": "7125cb017bc16a11443f14b5ed473642da23c240291f2e4d3b4354b1f1841157",
+          "thumbnail_bytes": 10982
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_06.png",
+          "thumbnail": "thumbnails/protected/camera/camera_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5717253088951111,
+          "source_sha256": "b989d39b090df9f1168bc4dfaf89e71ff1d5551943b1d289833b88fc5d706fd6",
+          "thumbnail_sha256": "a4a80d14f5907f020a9fa1a78277b03c4c4585241484ea48228d174a7d0c3132",
+          "thumbnail_bytes": 12642
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_06.png",
+          "thumbnail": "thumbnails/forged/camera/camera_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5609848499298096,
+          "source_sha256": "554c9d9c39cdcb09973a9f96e03751957b50f39f5f7895e769c5908b0cbb1364",
+          "thumbnail_sha256": "fb9b0ed7f0cfa7ec92c78dc2a085d8ae2f04f9ed178ddfd14d9424c95c6fc96c",
+          "thumbnail_bytes": 8068
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_06.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.012245248071849346,
+          "source_sha256": "a45ed8003a4b69bc3ade3bec1dc6bec290b944b32379598dd46555a6eadaf626",
+          "thumbnail_sha256": "851675c8defb9ec20ce6899af887ae1de370b39dcd7d91731d0c01fd2085098b",
+          "thumbnail_bytes": 322
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_06.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5625661015510559,
+          "source_sha256": "d3305f5b61579f0a3435401e8b1fcfefd9c563562d48faa8802410457ea827ff",
+          "thumbnail_sha256": "299af8c8d14836949d4d7766c9aaf7d0cdc60f59207d2de6a831aea9e53258e0",
+          "thumbnail_bytes": 13204
+        }
+      }
+    },
+    {
+      "id": "camera_07",
+      "category": "camera",
+      "relative_path": "camera/camera_07.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_07.png",
+          "thumbnail": "thumbnails/original/camera/camera_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.639102041721344,
+          "source_sha256": "83134f9a9a46c55f5aa1ff5cba81e1e01917fd53cfa7f4641202ab55dde05adf",
+          "thumbnail_sha256": "959d33217f4b75efb229a88497d631595866ef4afd68b25ba24d351f97689b1c",
+          "thumbnail_bytes": 6054
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_07.png",
+          "thumbnail": "thumbnails/protected/camera/camera_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6342546343803406,
+          "source_sha256": "1b4320d0dd120f1e95032d71a360e0b9ac32ffb85d1910505d45455d72b82df8",
+          "thumbnail_sha256": "39be53cac8d3c76462e3a2eb46aefb148990b836829f982d8106afb54ef2fcc8",
+          "thumbnail_bytes": 8034
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_07.png",
+          "thumbnail": "thumbnails/forged/camera/camera_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.6386172771453857,
+          "source_sha256": "21ac164e87d4f679c308d3074a9585a138f7f876e78944367afcba5ca2016428",
+          "thumbnail_sha256": "4b66c5bc14cefb5d5e2eddaed21cd36cc61270a1a4a8edefd46f3edfcc4197e1",
+          "thumbnail_bytes": 5728
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_07.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0012986131478101015,
+          "source_sha256": "3e2205a47f322c502deee6c881f67048254eca878aa6483fed65f0720fc23b79",
+          "thumbnail_sha256": "edb9425c17f86c39f55199950b2b3e2a06e235717ff30fe82e5f49e95e2a77ff",
+          "thumbnail_bytes": 256
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_07.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6348815560340881,
+          "source_sha256": "eca3de5f708d308e60422be87982ff4b0c455effa1dfe81cff8816634ff93399",
+          "thumbnail_sha256": "6e7223512b13a95cef56b9efc945658a0d23d3818bc869990c757e507ad914b2",
+          "thumbnail_bytes": 9516
+        }
+      }
+    },
+    {
+      "id": "camera_08",
+      "category": "camera",
+      "relative_path": "camera/camera_08.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_08.png",
+          "thumbnail": "thumbnails/original/camera/camera_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4560082256793976,
+          "source_sha256": "da696d5e3b5dc41ce79d0c2d12aee6f55b15672d8a7cdf7d24e498054175ca48",
+          "thumbnail_sha256": "1465f1c394e05de4a881681aa556bb900fc1584d2619172df22f720abcde395a",
+          "thumbnail_bytes": 7154
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_08.png",
+          "thumbnail": "thumbnails/protected/camera/camera_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.45497027039527893,
+          "source_sha256": "3efea60fd698e038d60a8840f7943a45a76a77f2f07e478619cc31111525eca1",
+          "thumbnail_sha256": "66bf0ba55371590635d7de18c325dc5460f2f06bf23d87225c5c3ccc065f21e0",
+          "thumbnail_bytes": 8896
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_08.png",
+          "thumbnail": "thumbnails/forged/camera/camera_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.4309210479259491,
+          "source_sha256": "36daea1446732bcc07845911908e4056f6c35a9fab3ee37cfee74858eabd77af",
+          "thumbnail_sha256": "b929b102ae381f21b8398fe01c64a225c7b411a7e776e85d7bb2c22383df9ff3",
+          "thumbnail_bytes": 6170
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_08.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0004508292186073959,
+          "source_sha256": "b34c4e76cb270d6b59afa978afc39571f05a8ff1de4dba90e58c93273bee44e1",
+          "thumbnail_sha256": "07a44ab200aecedbb03019580d29a1dc7bd759a879f8a22485be7dd7604c3502",
+          "thumbnail_bytes": 220
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_08.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4441055953502655,
+          "source_sha256": "e63d99bf0409b0266c892fc1cbb8119d2ab58129c36c0d80bca39fd9e6f6f329",
+          "thumbnail_sha256": "fb6c5a936a1a4603a1f3c205b3c5545501ca750239a71bf97ee5cf61c1edc351",
+          "thumbnail_bytes": 4232
+        }
+      }
+    },
+    {
+      "id": "camera_09",
+      "category": "camera",
+      "relative_path": "camera/camera_09.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_09.png",
+          "thumbnail": "thumbnails/original/camera/camera_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4913196265697479,
+          "source_sha256": "a02082eb7bab26b7cae4140aced962af5be58821b83d4152a1a7e8fb506e2dcd",
+          "thumbnail_sha256": "177c0476dd638b703ed9f455c7bf9c1814351433a57ac336221190654ceb3e99",
+          "thumbnail_bytes": 13234
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_09.png",
+          "thumbnail": "thumbnails/protected/camera/camera_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.49048545956611633,
+          "source_sha256": "d28e625780401300d0e87e06e93b4301e575fab3d56804a338c96e8bd70aa0b7",
+          "thumbnail_sha256": "aa8aadca99e536d523035ade683b4b773382b610ccb3a2b52ac8c570112808f5",
+          "thumbnail_bytes": 14286
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_09.png",
+          "thumbnail": "thumbnails/forged/camera/camera_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.49792400002479553,
+          "source_sha256": "e92f51a836feed0c6f539e4d5bfaa85895b07f5feea2b8288962f8238e8ef750",
+          "thumbnail_sha256": "f78067c5c374717ef666d951ff6148c0b210e960acd046956ece13c7e0de0167",
+          "thumbnail_bytes": 10592
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_09.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0007180078537203372,
+          "source_sha256": "39ba518ebeca2150f522eec66c5119a7c2fa0b1543acf1cfa3f5edc52e8a3fce",
+          "thumbnail_sha256": "c734cbb8a5e75845df88690991ca99388e53720f94fa3deeb3054c4a9e2ab5d3",
+          "thumbnail_bytes": 238
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_09.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.47446727752685547,
+          "source_sha256": "a698a1d0d5eaeeec92c814c78da1028a5424d1dea89cd1e6817e1784b9ec522a",
+          "thumbnail_sha256": "72914cbb467cda84cf5eaaf049af3df9fe58014cb014d0e08e381f17fa0f2735",
+          "thumbnail_bytes": 7608
+        }
+      }
+    },
+    {
+      "id": "camera_10",
+      "category": "camera",
+      "relative_path": "camera/camera_10.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/camera/camera_10.png",
+          "thumbnail": "thumbnails/original/camera/camera_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.54925137758255,
+          "source_sha256": "f567de2e554bcaeda68f057639152e77c4cb42290499859b9083eb54e414d64f",
+          "thumbnail_sha256": "6f94b7d3c5f31eb357681ab813bfd3b605b19d53e5b4557aa2380338ff6b2d51",
+          "thumbnail_bytes": 10064
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/camera/camera_10.png",
+          "thumbnail": "thumbnails/protected/camera/camera_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5473220944404602,
+          "source_sha256": "f02c26577bbc54122d78f9996b10d775d1489daba6e4f9c52b4028557ef75782",
+          "thumbnail_sha256": "b1dcc5f33647f2e0ea66852ed1ca20d0b6d02f648cde6584f05abccf9663af77",
+          "thumbnail_bytes": 11868
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/camera/camera_10.png",
+          "thumbnail": "thumbnails/forged/camera/camera_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5544102787971497,
+          "source_sha256": "c4594af35cd9014b3d5e613590f240fb7e86ba072894418f85edf79eb2a99d27",
+          "thumbnail_sha256": "aeb9bbd592a15dafc004cac489b7cc886e6bbe3c7c5facb0e4e57ae1eea1dddb",
+          "thumbnail_bytes": 7912
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/camera/camera_10.png",
+          "thumbnail": "thumbnails/confidence/camera/camera_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.03907258063554764,
+          "source_sha256": "1c2b8087377d2ec713588de62977bd7624c4fb166ca69499f87bae62973f0481",
+          "thumbnail_sha256": "f537372473dc7b7d99d9ab18ba0f1cd3e73a75638a118454451292d473d3d473",
+          "thumbnail_bytes": 1174
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/camera/camera_10.png",
+          "thumbnail": "thumbnails/recovered/camera/camera_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5514692664146423,
+          "source_sha256": "81b1d6efb127711bb45af849e29b9246ee1876cd9cad4cc6b9a45ac02f7b32df",
+          "thumbnail_sha256": "cdb6ee0c166dfabc28d16a7e38a6c8b12038a9da5fdf0350fd3f8f5fa54f30bc",
+          "thumbnail_bytes": 12688
+        }
+      }
+    },
+    {
+      "id": "face_01",
+      "category": "face",
+      "relative_path": "face/face_01.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_01.png",
+          "thumbnail": "thumbnails/original/face/face_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.38049712777137756,
+          "source_sha256": "7d5854099454b7d729890e13c79f93b3fe02c37e88041e84d0b8cbd09d5cff6b",
+          "thumbnail_sha256": "95290486c39d4824b8c6e21977455dc019382f74ed21446c14f3017837c9343a",
+          "thumbnail_bytes": 4852
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_01.png",
+          "thumbnail": "thumbnails/protected/face/face_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.38036736845970154,
+          "source_sha256": "974f777fccee13de2b12716081ec51796b7013002945e7bbb5e92b987accc650",
+          "thumbnail_sha256": "40d83af1fc74e589805db818796d803372a06e980738b11094f00a7696afe8c5",
+          "thumbnail_bytes": 6456
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_01.png",
+          "thumbnail": "thumbnails/forged/face/face_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.3771847188472748,
+          "source_sha256": "4215b126325eed5d0f40319c49ad8be55dae19a9d1d3a6c45a9541cb84faa87e",
+          "thumbnail_sha256": "f9d680af7f050bb816054c7005b5b35211df827ddc9f6b6286720f6cd4fa21aa",
+          "thumbnail_bytes": 5128
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_01.png",
+          "thumbnail": "thumbnails/confidence/face/face_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.054653506726026535,
+          "source_sha256": "ed36b1681eacc44e324f0fab3ce4212fa114942a8941d341f0b95124e1e7b5a0",
+          "thumbnail_sha256": "021a4e522d738d0a5506cc0baa15d51031f534439acb3ada8f669ee9d41111f2",
+          "thumbnail_bytes": 1716
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_01.png",
+          "thumbnail": "thumbnails/recovered/face/face_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3748752176761627,
+          "source_sha256": "7e4252e05aa7951bacf24e4a0c13cc799477f06e8b146a767a24b351e57ccf3f",
+          "thumbnail_sha256": "fcfc2f1e05e93504589c795f1b62a46b671d36f19af01268db47135ae779f3e9",
+          "thumbnail_bytes": 7770
+        }
+      }
+    },
+    {
+      "id": "face_02",
+      "category": "face",
+      "relative_path": "face/face_02.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_02.png",
+          "thumbnail": "thumbnails/original/face/face_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4321824610233307,
+          "source_sha256": "4df2507af9eecde78e9f17203986f037215c616716bfd716252d46c5b43fe552",
+          "thumbnail_sha256": "0fe1040909f87d904d5db3bccd8cc897f78b31fc48534be64a5bc6c8db1aec8c",
+          "thumbnail_bytes": 9530
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_02.png",
+          "thumbnail": "thumbnails/protected/face/face_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4314063787460327,
+          "source_sha256": "0dd4c995b71701dd96da63df1795a72d745ee8bd9200b6f6ed301f9bed687a62",
+          "thumbnail_sha256": "fe9ae17aec1f307470b4d32a49a0647d3e1eb9f653bfa757b9957f4e60c70794",
+          "thumbnail_bytes": 10916
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_02.png",
+          "thumbnail": "thumbnails/forged/face/face_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.44988277554512024,
+          "source_sha256": "b4177b0e49d5a0934190f2fa6f322849c4bc824d05e887effd09dfe0524c797f",
+          "thumbnail_sha256": "ba33b860a2755b51fc8fbc1662c68964b9b8ef2fbbe0e467d7454ebe7222ed4b",
+          "thumbnail_bytes": 8630
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_02.png",
+          "thumbnail": "thumbnails/confidence/face/face_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.002266066847369075,
+          "source_sha256": "fe1204c6e1e4fe872a1ea9aa8b4a8a4162fccc034a17ae1dc9c94150705e9c81",
+          "thumbnail_sha256": "22ccd2779d6bc54c8d2fba07a7e53e83490d594790fdbfc35d064e54bb0fa4e4",
+          "thumbnail_bytes": 262
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_02.png",
+          "thumbnail": "thumbnails/recovered/face/face_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4216913878917694,
+          "source_sha256": "7164442895ce616183ca18eaa8dd5fbbf82b7623fa9c93499e6bbc9336ab3e63",
+          "thumbnail_sha256": "526a96efa181c8757f4a3432c9a3617de6e574b9dad28b36375a4714e78f1851",
+          "thumbnail_bytes": 7482
+        }
+      }
+    },
+    {
+      "id": "face_03",
+      "category": "face",
+      "relative_path": "face/face_03.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_03.png",
+          "thumbnail": "thumbnails/original/face/face_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3059231638908386,
+          "source_sha256": "979baa67852d0eb9d44b673c7ecba2e1ea591bdc554e1b913c11f62603ad0aee",
+          "thumbnail_sha256": "87a043d71da5af6bf88163443266114e822de11d699826ecfcb124445026ee90",
+          "thumbnail_bytes": 9904
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_03.png",
+          "thumbnail": "thumbnails/protected/face/face_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3087649345397949,
+          "source_sha256": "f6e2dde8da8ce800edaced06d97565eb312c5597bee28eaa2f57551005c01fa6",
+          "thumbnail_sha256": "bed74281b38cebd65732dd935c01d4235320d3026b800fd85d9cdd0be2c7b333",
+          "thumbnail_bytes": 10832
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_03.png",
+          "thumbnail": "thumbnails/forged/face/face_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.31119486689567566,
+          "source_sha256": "53989c876d03337cd913503ef8eb8b68eb32fcdae24b1b3582cd034a4f30560a",
+          "thumbnail_sha256": "962f20c01d990f47a582965541503669fab970747d42de5f0a1471110f98f03f",
+          "thumbnail_bytes": 8016
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_03.png",
+          "thumbnail": "thumbnails/confidence/face/face_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 9.048893844010308e-06,
+          "source_sha256": "9dfde7922d62749960441f4e5f4662bb515cf0315372ff4f742dcfb9c6c0f76e",
+          "thumbnail_sha256": "312d27ca0c5f302cf0c6aa97f5568ffd420a3f223a0cf7c60db893dfb10b435f",
+          "thumbnail_bytes": 202
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_03.png",
+          "thumbnail": "thumbnails/recovered/face/face_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2727099359035492,
+          "source_sha256": "3f69c9f121865645d3c51b3ddde33a863c11b33bf593d5a07d6aa3a6e3b839ff",
+          "thumbnail_sha256": "de21b12f51d91cbc542b897eeec8e3a6e30bdc0af474b1ecbcd289c169bcc2dd",
+          "thumbnail_bytes": 8090
+        }
+      }
+    },
+    {
+      "id": "face_04",
+      "category": "face",
+      "relative_path": "face/face_04.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_04.png",
+          "thumbnail": "thumbnails/original/face/face_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.45751988887786865,
+          "source_sha256": "1333dc786c2358cd4ece3c27681d715d0d47664251a4cae19a70a8383cd719e7",
+          "thumbnail_sha256": "123e3d32265b7e56ee81915af8683408425b16d2e50d8d861ab3022dc8866bf5",
+          "thumbnail_bytes": 4582
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_04.png",
+          "thumbnail": "thumbnails/protected/face/face_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4554629623889923,
+          "source_sha256": "890f3af1199900db9f5452d754da3267c16e604ddabcad82f39a17e03f982e76",
+          "thumbnail_sha256": "b6c74961d52860309ae6e2b13994fa07dd702f9707f3e42d081c29ef4ca90ff0",
+          "thumbnail_bytes": 6620
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_04.png",
+          "thumbnail": "thumbnails/forged/face/face_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.4572770893573761,
+          "source_sha256": "37cd93d547217715b037c496e3168d8f8810e468180ee3e5225bc452f4569a7a",
+          "thumbnail_sha256": "8036c60b7f359f2af4bbb45e853576271540bdef18c13388e4b23f27b8783bde",
+          "thumbnail_bytes": 5100
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_04.png",
+          "thumbnail": "thumbnails/confidence/face/face_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 4.8402607717434876e-06,
+          "source_sha256": "09868c33dda1151b38342c09a1814b3706fc7fc922c18ac3a2a8e82100ec7a90",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_04.png",
+          "thumbnail": "thumbnails/recovered/face/face_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.44271644949913025,
+          "source_sha256": "758f2119a731a8de4e4bc72c7cbfe5583ee86c04d1ca711f9f70842ac03cb513",
+          "thumbnail_sha256": "6080a7f02799195a0883223132131ab28e69bc6f959c3d73895b23f211ddf9b0",
+          "thumbnail_bytes": 4122
+        }
+      }
+    },
+    {
+      "id": "face_05",
+      "category": "face",
+      "relative_path": "face/face_05.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_05.png",
+          "thumbnail": "thumbnails/original/face/face_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.7898128032684326,
+          "source_sha256": "23d13558982ae5c9b57af2909998d417df704ee51fa8fdd26066fd0c3151d1f5",
+          "thumbnail_sha256": "ff905f4aee28d0389e6f10a2ef184f4d49a380c34fdf29e6e34e36309ebdf562",
+          "thumbnail_bytes": 5586
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_05.png",
+          "thumbnail": "thumbnails/protected/face/face_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.7849131226539612,
+          "source_sha256": "19e304622a87d6769ffc1d52533510248fda39fc65df5be5222831a92d62fe43",
+          "thumbnail_sha256": "a7538c2af2cb5363c113b1019e26a70e03e5b956d47dce2c9b080a307dffc47a",
+          "thumbnail_bytes": 7496
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_05.png",
+          "thumbnail": "thumbnails/forged/face/face_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.7846544981002808,
+          "source_sha256": "7f596cf6756376410e0e824cccf488fde6cd2460e025e0f9f7762c86026295b9",
+          "thumbnail_sha256": "b9fe09dd3726c40ab6f7c356faf18c3a315adde80fc2d0684c79071de1a79fbb",
+          "thumbnail_bytes": 6208
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_05.png",
+          "thumbnail": "thumbnails/confidence/face/face_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.011442463845014572,
+          "source_sha256": "5deca487deb58b123a84b0a1fc3e98c64f11ef472a244f76c55aad0746419145",
+          "thumbnail_sha256": "a659e3e1f7a9379b258bc9cbb438329588d2ad3a0d3139478bb3b4bac538d314",
+          "thumbnail_bytes": 446
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_05.png",
+          "thumbnail": "thumbnails/recovered/face/face_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.78082275390625,
+          "source_sha256": "b4f4d77557ac2cc1d7a7d430db33557856a56a48e65ac084a7e32b4252134617",
+          "thumbnail_sha256": "9321e8cf8cc5eef90809d5eeecbe8904c3d91c88f2d613a853b3bd1aecd82025",
+          "thumbnail_bytes": 8848
+        }
+      }
+    },
+    {
+      "id": "face_06",
+      "category": "face",
+      "relative_path": "face/face_06.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_06.png",
+          "thumbnail": "thumbnails/original/face/face_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.36546313762664795,
+          "source_sha256": "27df35cc77ac555b9a9fd36329bf135f576a194881447888d27912f7943c7db7",
+          "thumbnail_sha256": "fafc2a82987d5d3bf9ddbe717f6660cc23b5825acf0827aa4a63ebc543d243c4",
+          "thumbnail_bytes": 6386
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_06.png",
+          "thumbnail": "thumbnails/protected/face/face_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.36600542068481445,
+          "source_sha256": "dff8c6d7f5006e5da92a735d02f466eac941151980293dd6a1e7d3b115e48435",
+          "thumbnail_sha256": "f73f09cdd28a51dcffe4ae70be962fbee30b9ffb2b33de7d7be9501a12465277",
+          "thumbnail_bytes": 7708
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_06.png",
+          "thumbnail": "thumbnails/forged/face/face_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.37174147367477417,
+          "source_sha256": "832475e2fa836b996cd9f4cd87003ca54cacc69aff2769f93193f715c1bf3fda",
+          "thumbnail_sha256": "6333a9b1017e4e343a4ba62cb97eaf4860bc032ccb38c681db6f98ace30e4736",
+          "thumbnail_bytes": 6390
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_06.png",
+          "thumbnail": "thumbnails/confidence/face/face_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.01963663101196289,
+          "source_sha256": "45e137d94998528386da582163c67dd9938d647850e2dc290f267bb8089454a2",
+          "thumbnail_sha256": "77c1e5d225c000260de3b3516ffebeea98ba2c98ca82c6565256264e923c2aab",
+          "thumbnail_bytes": 628
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_06.png",
+          "thumbnail": "thumbnails/recovered/face/face_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3651585280895233,
+          "source_sha256": "d482b51f8755e2b3f17c435e8c0d1d8c06ab4bf1af64d85a832bafc1932e7f16",
+          "thumbnail_sha256": "f4a8fda42f79e6611be88da3de381a9389a39282b1a7395bc81ae428dea50eda",
+          "thumbnail_bytes": 9216
+        }
+      }
+    },
+    {
+      "id": "face_07",
+      "category": "face",
+      "relative_path": "face/face_07.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_07.png",
+          "thumbnail": "thumbnails/original/face/face_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.26202693581581116,
+          "source_sha256": "d16efa8d7acaa6a1f4b3f8b9086e03023e9ea457f447e2efb057b372d594f437",
+          "thumbnail_sha256": "fcbe766ae843af4705ef18b3e8e7f35ec90e98d77eb5e50db06ef7339b89cc0e",
+          "thumbnail_bytes": 7724
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_07.png",
+          "thumbnail": "thumbnails/protected/face/face_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.26539239287376404,
+          "source_sha256": "67de6edd197a292af3642baa29fdbb3c0d996eb7652c77faab80a213eab2d070",
+          "thumbnail_sha256": "3063066ccf7933c5e8d077d86b1eb073862635b4badf367195b032ef0c0e5cd3",
+          "thumbnail_bytes": 9258
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_07.png",
+          "thumbnail": "thumbnails/forged/face/face_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.2596665024757385,
+          "source_sha256": "da3bfe1f24f1d89b3bb13952501b26c0246f7f19f850cdc8b311119819710985",
+          "thumbnail_sha256": "5826d8433f10c5866fea09ee1024e7e7ba160a84468007513d9b8100e8a4f998",
+          "thumbnail_bytes": 6262
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_07.png",
+          "thumbnail": "thumbnails/confidence/face/face_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 7.67128003644757e-05,
+          "source_sha256": "1940d8296fa46e5f570f3f911fff4da9d52717e6db88d2106d61203b013a4db5",
+          "thumbnail_sha256": "84a388f145ac136481957dad56d1761b55b913468f27d2c296917ac381264a60",
+          "thumbnail_bytes": 204
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_07.png",
+          "thumbnail": "thumbnails/recovered/face/face_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.22476322948932648,
+          "source_sha256": "b37e62ebbadb55312faffb72cf02ceca35f065238604800e9f25edbbb9fa44e7",
+          "thumbnail_sha256": "fb21adb168f523a430712a325624b5b5335b610445e61e856b4dd4092d1e8574",
+          "thumbnail_bytes": 5772
+        }
+      }
+    },
+    {
+      "id": "face_08",
+      "category": "face",
+      "relative_path": "face/face_08.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_08.png",
+          "thumbnail": "thumbnails/original/face/face_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5280349254608154,
+          "source_sha256": "4e32754cf4f68faad0bee70c5900a4875cdd702a91cb65cb61abeea8dc164b6d",
+          "thumbnail_sha256": "6f08aaf430d8bc85b5f69469c431a44d9a1fff2dff19a77b789164e5ccf47254",
+          "thumbnail_bytes": 7406
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_08.png",
+          "thumbnail": "thumbnails/protected/face/face_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5264903903007507,
+          "source_sha256": "953472fe24c03bd94e65d3b18dbd5e53fa731c82c5e982b3422c19f884e74963",
+          "thumbnail_sha256": "9fffad461f450846897fbd6d6034c9659dfa37ac23c4952c471baaf89aa9c24b",
+          "thumbnail_bytes": 8774
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_08.png",
+          "thumbnail": "thumbnails/forged/face/face_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5283787250518799,
+          "source_sha256": "9129c9a6e1059f31381906b9babc9da283dd1907147ef1bb0897dc4396438c5f",
+          "thumbnail_sha256": "fab7684bf5fc81b421929f9a06446d74883e06aefbd0464e93192e2683f5b684",
+          "thumbnail_bytes": 7126
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_08.png",
+          "thumbnail": "thumbnails/confidence/face/face_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 3.694014230859466e-05,
+          "source_sha256": "7f94216a1c966c889b8ebec392e54e3a0129d320e752a928da97e61b70042963",
+          "thumbnail_sha256": "0c1ff6ccb3f505666a74c253a376a1fa1a032f8f88723dc6201508a1ca68c6a0",
+          "thumbnail_bytes": 200
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_08.png",
+          "thumbnail": "thumbnails/recovered/face/face_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5123646259307861,
+          "source_sha256": "7f43917742700ac8d412876c18760bdca169f5c28210d10338042c0188df6694",
+          "thumbnail_sha256": "35e60702cedbf0453d284d3c659c29b4b092cea9dd239a36b484cadf52c5b841",
+          "thumbnail_bytes": 4568
+        }
+      }
+    },
+    {
+      "id": "face_09",
+      "category": "face",
+      "relative_path": "face/face_09.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_09.png",
+          "thumbnail": "thumbnails/original/face/face_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.41406580805778503,
+          "source_sha256": "c3d26c81a863fe9761ce9b7d0789bf8693e421dfe28819b40b26ee327baa9b86",
+          "thumbnail_sha256": "74490d36a2239ccd1a66c9a2569d57afba12c42c06cb102641f499076ba93d1f",
+          "thumbnail_bytes": 9358
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_09.png",
+          "thumbnail": "thumbnails/protected/face/face_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.41431358456611633,
+          "source_sha256": "30508cdf9a4c8883a1ff59958c5a7352b59988435781c8754aff03289b6863e2",
+          "thumbnail_sha256": "d2684623c0598149b8e29a4101423a2e2ab63ee8b73103b7c94cc977e86a907c",
+          "thumbnail_bytes": 10416
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_09.png",
+          "thumbnail": "thumbnails/forged/face/face_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.418147474527359,
+          "source_sha256": "d2b076cdc92ff2b3b01eadb7972aa8d2cac57f15c5fd9f96fc39546f64c55efa",
+          "thumbnail_sha256": "9656bf2ae5f9fe0fd5545848b279a5ae3caedca98e88b3076cba80065249305e",
+          "thumbnail_bytes": 8170
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_09.png",
+          "thumbnail": "thumbnails/confidence/face/face_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.005930211395025253,
+          "source_sha256": "eb8c2acb84b68312d7e558883868b4029a2788b691846c39b548650d18535947",
+          "thumbnail_sha256": "7c60e65b7d996ba5a99d89f68d720348d9384bd6735146e3a849dae741a33dff",
+          "thumbnail_bytes": 310
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_09.png",
+          "thumbnail": "thumbnails/recovered/face/face_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4146948754787445,
+          "source_sha256": "a520683852b3311dd6ab282d1871c127733bd682f0eafc689ea610bbd9a9ce4f",
+          "thumbnail_sha256": "0f093194aa77555eee4ac5efff16384ead37d9287447374b60eee2ded9486799",
+          "thumbnail_bytes": 12724
+        }
+      }
+    },
+    {
+      "id": "face_10",
+      "category": "face",
+      "relative_path": "face/face_10.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/face/face_10.png",
+          "thumbnail": "thumbnails/original/face/face_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5201748013496399,
+          "source_sha256": "3a6d2482670dae2f9766360a3b59b8950abc392bc45c91fb1d3e16ebaf221060",
+          "thumbnail_sha256": "bac08fb504d4efe4632aa13a2b2125888642a6703c51c8eb254da3a083504ba4",
+          "thumbnail_bytes": 6798
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/face/face_10.png",
+          "thumbnail": "thumbnails/protected/face/face_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5177596807479858,
+          "source_sha256": "bb18d4937e0f4abc4e3d89a576123dd26ebdecb81bf650afc2d47aa20de602c7",
+          "thumbnail_sha256": "ab3cc3e5957f7041115cff8314515646d1f06967f394992049f126570ce55020",
+          "thumbnail_bytes": 8714
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/face/face_10.png",
+          "thumbnail": "thumbnails/forged/face/face_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5182090401649475,
+          "source_sha256": "cd0e7c8277944a7cad4599f37d541f5697c8c41b6ff1dc37b10bca04c12f427e",
+          "thumbnail_sha256": "72123ea6d904f2cd03b27ecbbcc9e9c43b7760c2fecd0c120098bc8f01412d50",
+          "thumbnail_bytes": 6774
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/face/face_10.png",
+          "thumbnail": "thumbnails/confidence/face/face_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0005737638566643,
+          "source_sha256": "6f86eed0a82d291d78bcb2b71d9adada6c19afa18707e302c963d552dc59b824",
+          "thumbnail_sha256": "d21963736cd879f19ded8ab1f264bb2db9ca88576a67308645efab95bb854c8e",
+          "thumbnail_bytes": 232
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/face/face_10.png",
+          "thumbnail": "thumbnails/recovered/face/face_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5184175372123718,
+          "source_sha256": "6f6f9d7536df899f81f5940f45ea653e475d7c53fb90cc4e1870ba5854e6ef1e",
+          "thumbnail_sha256": "e51b719a548b2e43c4778556d10543552226d0c4c05aafb064e896ff38fa3717",
+          "thumbnail_bytes": 8974
+        }
+      }
+    },
+    {
+      "id": "human_environment_01",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_01.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_01.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6454182863235474,
+          "source_sha256": "18b4dff03f38eb8c3ea865d5334371e5f0e6bec671804f5a4ec878cdd2b1a096",
+          "thumbnail_sha256": "f16055a123b8c78b42d98cda0e6deac51416326ffe0d82d9f443b2ce1c48f75f",
+          "thumbnail_bytes": 9866
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_01.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6429818868637085,
+          "source_sha256": "cc81204b343fefebbfed6b33006482832d8f1e836a1eb04c8bb930a9b476e096",
+          "thumbnail_sha256": "a9caa5ee80207c5cacc66dfaacbb0c3cc5616a29c28e36522ca800596d96c8c4",
+          "thumbnail_bytes": 11354
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_01.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.6319866180419922,
+          "source_sha256": "9432afdd5a7aae0d42cc8fd4e22861a61722445b1bffeff24a4d164f98c98f71",
+          "thumbnail_sha256": "02f843a8ca24f962e8031ff13ba260b94691b55682fe96f311058b7f1b73d654",
+          "thumbnail_bytes": 8508
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_01.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 2.195399247284513e-05,
+          "source_sha256": "f089fe277142efc90215fb19870627d5014551722383b96fce78624ca0de8599",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_01.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6303523182868958,
+          "source_sha256": "171531697fe0b66841cca11d8573b8f88c812fe75af74ac6fdfcf2de8a08530a",
+          "thumbnail_sha256": "b7061e79f751c7bcf7e75dff4f48908d0e06d85f7853483ef9a5d90cd378edf6",
+          "thumbnail_bytes": 7626
+        }
+      }
+    },
+    {
+      "id": "human_environment_02",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_02.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_02.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6470441222190857,
+          "source_sha256": "ca7ab2cf172b6c13ecdb6e6e218152dd6f6e3d64063496bdb47f26d298ad62d0",
+          "thumbnail_sha256": "2ef70bbb550a1056517a87bcf5349f01b7f00501300128d32c3607d6a0e0b3be",
+          "thumbnail_bytes": 10714
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_02.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6444534659385681,
+          "source_sha256": "ff092c1d9968cd06ea93be1943e195a6898548094ec60ed477fcefbacafd2346",
+          "thumbnail_sha256": "7a759e27afd8ce10489950b5219b22de89bf6f4d3a32ce2586dd475c90c79364",
+          "thumbnail_bytes": 12554
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_02.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.6698837876319885,
+          "source_sha256": "d94b04151a57ae6937682c016db50938e27f169b719ac25a3903072eaa8936a1",
+          "thumbnail_sha256": "09deb6d67b0e37608fe429b6e791f453b868ee85f88d3a2bb00561a25faf57b8",
+          "thumbnail_bytes": 8642
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_02.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 3.99587497668108e-06,
+          "source_sha256": "9e3719b4e7deb067d485232b1f31d0bdbdf0453c6b4c3078911d24259d27df5d",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_02.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.640251874923706,
+          "source_sha256": "1fa2a1b9675782c5afaadef2cc5efbab8cc5abd94c05baeb7a2a388a6546ef24",
+          "thumbnail_sha256": "6ed14b3b176bcfdd442c9bf9419d9ced5f7df8dcc214b1a1f8e3a29a4f48ef3e",
+          "thumbnail_bytes": 7074
+        }
+      }
+    },
+    {
+      "id": "human_environment_03",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_03.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_03.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.429006427526474,
+          "source_sha256": "d71ab46dc9148cd2b9bebf499a1ae68762eb66b5fa0f7774e7645a0cc2347bf7",
+          "thumbnail_sha256": "8e65a13938729c528e642c1a8f30f8d3a4b863ea04adbcf000579231822bff90",
+          "thumbnail_bytes": 9368
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_03.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4290204346179962,
+          "source_sha256": "27e12177760ddc653fcf6db48273d3125f9095a990a7071f55beef9dbbcb789c",
+          "thumbnail_sha256": "cd36ee28cdfb8c8f9d08d8232487dbf55db37a197214c2349473b1d7cd6dbf35",
+          "thumbnail_bytes": 10790
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_03.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5332506895065308,
+          "source_sha256": "4048410eeb49eb9126c64d557e5d06aae2ff7f476d6861bedd5e96289a1f987f",
+          "thumbnail_sha256": "b3d8ab8db02537fe9455c432b7cb937aceb610456369c4bc832d8e804d64de85",
+          "thumbnail_bytes": 8288
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_03.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.001548358122818172,
+          "source_sha256": "ec486d35e914899501370cc9925e4b7d27e7ca5caf3c00e55435b6c8ae25ef61",
+          "thumbnail_sha256": "44da31a1d2e90105c7e477cbc95bfbb5fa2ac7f1c1d5037e35663917afc3271c",
+          "thumbnail_bytes": 252
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_03.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.42515432834625244,
+          "source_sha256": "0b471de0ba540bebefc8949c23ca6e4da03f779f2e264bebf86e292ae6297663",
+          "thumbnail_sha256": "2284b376b22ce4fc9006f603bf5f91e0091256ffbb92c4841384a06d46dc4d3a",
+          "thumbnail_bytes": 5312
+        }
+      }
+    },
+    {
+      "id": "human_environment_04",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_04.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_04.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.40994080901145935,
+          "source_sha256": "48fe332a282c23bc9207a5bb3c20f1b77068b1091ee11a94890d4882276a5f3c",
+          "thumbnail_sha256": "cadb90284dc7267b91bcf98d17b969fc1117f23812356033e544051a52a0a4da",
+          "thumbnail_bytes": 11888
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_04.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4105503559112549,
+          "source_sha256": "02293ecef99f825db609536bb3220f6dea0527d77e5e63c2fbbd570ef4764394",
+          "thumbnail_sha256": "47d6147878d0436cec249a461898e074fcf57ebff311382084bc2871fd61db28",
+          "thumbnail_bytes": 13042
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_04.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.3866178095340729,
+          "source_sha256": "f4c970d3f551c23930413bef6851ba8a40865345c5e800aae427395481f8d568",
+          "thumbnail_sha256": "7c604e026db22f9c34696adaaf0bc30e3d8e1a6ec9b503f56387c14509ed3916",
+          "thumbnail_bytes": 8504
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_04.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 8.503699973516632e-06,
+          "source_sha256": "891e527582cdd64cc60fef926ad6ebe35f345cd0a6654ed47f6e14db191b90bf",
+          "thumbnail_sha256": "312d27ca0c5f302cf0c6aa97f5568ffd420a3f223a0cf7c60db893dfb10b435f",
+          "thumbnail_bytes": 202
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_04.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.36398279666900635,
+          "source_sha256": "9c525da18944dcffcbcd334fab2c53fd554cdbda8b2bba235bfdc0bff640f8e2",
+          "thumbnail_sha256": "decd5ac6872ded13877ebe8fe8c51cb0ef4243e33bc664cd11b01232c6e69317",
+          "thumbnail_bytes": 7218
+        }
+      }
+    },
+    {
+      "id": "human_environment_05",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_05.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_05.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.15779602527618408,
+          "source_sha256": "41600a1f00657f10835e33b3cd898b06e77772ce8449ad14ce4aa3342979f80d",
+          "thumbnail_sha256": "c4063f392c68ef5aff7a71263a368b53245950b842f3e82b2fad0d168f8efc57",
+          "thumbnail_bytes": 10356
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_05.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.16363956034183502,
+          "source_sha256": "48b5a85423938a306eee7d18cb444ef737670cae7884e7467b897cf01c44ccba",
+          "thumbnail_sha256": "f35b8d9cbaa28b2e7b1ed40a875b819a2366b8fd9502881cec3284d1ea13133f",
+          "thumbnail_bytes": 11810
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_05.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.16000911593437195,
+          "source_sha256": "d87013386bd114a80e2ae7424ba8df374a72125faf6f5e79ceeacafc521fde87",
+          "thumbnail_sha256": "2e4651617d6150a068a0b2771fe9711d961c7622d270b9f0c6bdece2c12182eb",
+          "thumbnail_bytes": 9058
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_05.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.001118898275308311,
+          "source_sha256": "8c7190dcdeedce5e9f18452ded0480e8f447a21d437be4724554f6c84dfdecca",
+          "thumbnail_sha256": "f8af2ed752e9a15c9402078cf29390245fe25bd6e9431f0b91d718abfe7c04fc",
+          "thumbnail_bytes": 244
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_05.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.1593022644519806,
+          "source_sha256": "d67f1f1a73771599d8494d2c2de1e48ae6e9de2efa334a52a8e2055ecdeab688",
+          "thumbnail_sha256": "2398b82bf8057df796175b135387418d517e378226363469771395744dc4ccc5",
+          "thumbnail_bytes": 12070
+        }
+      }
+    },
+    {
+      "id": "human_environment_06",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_06.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_06.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3748978078365326,
+          "source_sha256": "9697e982516aa5e39c69661f3466e20c0bdc1dc388262728fb0db141080a313d",
+          "thumbnail_sha256": "38cc5ef01c0d5c00fabc825c7c4a9af644806f0dc2ce84fe04a7003a13768dc3",
+          "thumbnail_bytes": 19128
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_06.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3761287033557892,
+          "source_sha256": "1118350a8237a515b665a8ccedb85043aeb25774c3ef0f70de33085a08864317",
+          "thumbnail_sha256": "5b3f4d776680cd79328872103d1c3ad8608d091d1e8c5c4e8398e3fd95c3543a",
+          "thumbnail_bytes": 19888
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_06.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.39038318395614624,
+          "source_sha256": "1dabb7451db756ab5f325b4d75b3ac36299a780f49cbb8c293912e425af2b384",
+          "thumbnail_sha256": "69d820d70b6c3037e93469324310b8ae2adf9c99e6e9bbab84eafdc1b248ecb5",
+          "thumbnail_bytes": 14278
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_06.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 4.00252338295104e-06,
+          "source_sha256": "f33acf110ec6c0c16b2de445ba737a4bae40b6bc480d35121bdbdfba22e6ccea",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_06.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.37070736289024353,
+          "source_sha256": "99fcb7f60992a70657696c7a4e113ee8e8322670e8af5b5ceeee2a2fa1879fa0",
+          "thumbnail_sha256": "11afbb614a8abe4752ec12321f88b0f272211d6480f86541a4ee5d51aa3b0421",
+          "thumbnail_bytes": 14292
+        }
+      }
+    },
+    {
+      "id": "human_environment_07",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_07.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_07.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.184256449341774,
+          "source_sha256": "d67e6c81c7b4c3519c77545f0ae0a313bc92a2fb4dbbea95e8220fcc1fbf0be1",
+          "thumbnail_sha256": "774887407291612ad0d094a80c126aeeea64eee1a54d286fc07fa5c6be82adf5",
+          "thumbnail_bytes": 8958
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_07.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.18936687707901,
+          "source_sha256": "9e6687642e4d6037506f37ce7327d98e78833713f6ea567de47f1afdc642181c",
+          "thumbnail_sha256": "af3201ce52130c71991757c6aa681919232b4600cd6ed78aa381b3d64529729b",
+          "thumbnail_bytes": 10432
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_07.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.19939924776554108,
+          "source_sha256": "aaa2a320d65975a5ec0f8f3a9faafebf8049be3a3d5af424bb1ec376543fbe46",
+          "thumbnail_sha256": "d3ac4c39ea62906477663501ec5f74af8283c10e2a18e114433b6d4979536b3d",
+          "thumbnail_bytes": 8430
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_07.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 2.4879424017854035e-05,
+          "source_sha256": "a76226b4be20a727bb49e1d6c176969c51acc18409572b4c280f8fb1ee310225",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_07.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.1893804669380188,
+          "source_sha256": "3d2f817d969f47556191ac872a0bdb986ed905a8c35bb2f5ad427dd1e8a0b0f9",
+          "thumbnail_sha256": "2ac3872ce809ed4be95dd3f36f60789b63b5ce97431e26d7e383ec8b77092993",
+          "thumbnail_bytes": 7682
+        }
+      }
+    },
+    {
+      "id": "human_environment_08",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_08.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_08.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2809508740901947,
+          "source_sha256": "d3ee30bdf697314931cb37b077d59e4736728eec1220dbc43bb700210af1ee81",
+          "thumbnail_sha256": "a33fa0697e146ec76fb5d54e5ddfe4577582ab7159be42c00fcb7b0f87bef8d8",
+          "thumbnail_bytes": 3682
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_08.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2833852469921112,
+          "source_sha256": "4b8fe5aac47acd03fc7b0c02d64e5acd2661610f2888304893303fe22baaa559",
+          "thumbnail_sha256": "115dcc7c225241d03766a4ac3d995906fa5f8cd0f3fa19d0072607733554c0a0",
+          "thumbnail_bytes": 5588
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_08.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.2710793912410736,
+          "source_sha256": "79ffdf95c0a47867502cf56a0e068a3e215d890dd3954aa34880b6695b525f27",
+          "thumbnail_sha256": "3c58c8f98d753db44b661f2addadba0ee17b7718a398a019d7d5dfff48cdd1b5",
+          "thumbnail_bytes": 4680
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_08.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 1.2911770681967027e-05,
+          "source_sha256": "ad4ead662dcc01a79d933fb9cd51920ecc96dff1b7ba096f6cd31932af179805",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_08.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2664407193660736,
+          "source_sha256": "e38b8b3b4ceb6920467384cb9797c45a7b40fd3d0aa5f709cf9af818bc3d2516",
+          "thumbnail_sha256": "55c6f220ace6895ac342a6fd42ee7222db64b8c1ad3ebf8c10e02e9829cd0eab",
+          "thumbnail_bytes": 3546
+        }
+      }
+    },
+    {
+      "id": "human_environment_09",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_09.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_09.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.19639061391353607,
+          "source_sha256": "836c9fe6a8fe629c41693fe4df639144510d425a298091e37d5ea05a94ca9941",
+          "thumbnail_sha256": "5824cdd2e37eb2c6d131aaf05c8002b7641fbd098f0195ce8dcc82844e3fc035",
+          "thumbnail_bytes": 5302
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_09.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.20235425233840942,
+          "source_sha256": "81540ea2613e0f8a93c7e380f90055483034b3fc4ae74d8df69ed50de4ea0a89",
+          "thumbnail_sha256": "858afaf8d26f1feb2f2ab5d8baa97e0e9591bcf5906efbf688fa301c9a5d51c1",
+          "thumbnail_bytes": 7032
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_09.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.20425675809383392,
+          "source_sha256": "2e544ed4e216c97a08cd1d30ce53294e8f4d17b195be204d2104af3e90640a5a",
+          "thumbnail_sha256": "ed404904540a30ba4335c192452d2ac69406b6162c29cf1e886dfe88e6e3d9ae",
+          "thumbnail_bytes": 5384
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_09.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.0071035027503967285,
+          "source_sha256": "5b9c16508eafbc8e33496bc0467699870b3d73bb7e86246592ed48ee40de0dcc",
+          "thumbnail_sha256": "b4f5e966cef1ff45410c6d66d47bbde34050294b8fd65a419a006b32fa493854",
+          "thumbnail_bytes": 452
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_09.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.1982497125864029,
+          "source_sha256": "6f604409b4321f08c84b4f9cabe2df84c3d92c0d57034ad73e54862083044606",
+          "thumbnail_sha256": "b6b4ec0ff0a5635a1c23964ad7ed3944f1270b957bd5993fa242cd29bc04650c",
+          "thumbnail_bytes": 6730
+        }
+      }
+    },
+    {
+      "id": "human_environment_10",
+      "category": "human_environment",
+      "relative_path": "human_environment/human_environment_10.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/human_environment/human_environment_10.png",
+          "thumbnail": "thumbnails/original/human_environment/human_environment_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3997999429702759,
+          "source_sha256": "343ad34b3d7be1caa236a5b38ad476b25d9e8cb204c8ce59856eae5bbe0a0697",
+          "thumbnail_sha256": "b1ae9299ac66390e709d01e61cf95b4c29c6107af2c1273a313b4d556e10ead5",
+          "thumbnail_bytes": 8328
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/human_environment/human_environment_10.png",
+          "thumbnail": "thumbnails/protected/human_environment/human_environment_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3998648226261139,
+          "source_sha256": "7e46aa01e282a619340b2b7cd3bedd1b004b3e9ebe067efbc1a5342e865e891f",
+          "thumbnail_sha256": "b09518aa6367e1e0ff8489c54489ba46412b32506c30a129c482cc7f87240130",
+          "thumbnail_bytes": 9522
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/human_environment/human_environment_10.png",
+          "thumbnail": "thumbnails/forged/human_environment/human_environment_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.41632845997810364,
+          "source_sha256": "c91430051b16680b144fc3b880508aee08f28ebb0624eac7833cab9c8a12da65",
+          "thumbnail_sha256": "82438d8ac34db987c17fd5485fdc10bc48bc5427ae4f688afbfd5a90fb37610b",
+          "thumbnail_bytes": 7616
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/human_environment/human_environment_10.png",
+          "thumbnail": "thumbnails/confidence/human_environment/human_environment_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 4.501177045312943e-06,
+          "source_sha256": "c8108d28916e8cb24b4c3a89ff94e4387d9a345653da259e6fbd757381b59fea",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/human_environment/human_environment_10.png",
+          "thumbnail": "thumbnails/recovered/human_environment/human_environment_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.39873459935188293,
+          "source_sha256": "cee423017ab5f2c118915cbfb529de609f29015349412ec65d09b85d982088ed",
+          "thumbnail_sha256": "46bb0104003b9aeb87e375c390e5c772004e3f218d020f18f85fd86a6bc30cef",
+          "thumbnail_bytes": 7180
+        }
+      }
+    },
+    {
+      "id": "multi_human_01",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_01.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_01.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5646317601203918,
+          "source_sha256": "c46f701c145c0bf82c08337b1fe03e0159b87892e35dd2beac1dc83333509f4d",
+          "thumbnail_sha256": "ad025bf4ad4041ab99ae2aceeb9805c5540e1fae7ca66e6a60dbc8cbe7a11be5",
+          "thumbnail_bytes": 8014
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_01.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5617772936820984,
+          "source_sha256": "951def1cea80fb2debd1a29d6806d3820aebca947ee4f3d3e51b900dcc255e5d",
+          "thumbnail_sha256": "3fc907ddf5fafd9657d414bfe245178eb897b8168c10fe533a6967182124c9e3",
+          "thumbnail_bytes": 9374
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_01.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5993937253952026,
+          "source_sha256": "bb7739fce6d77a3c75728d0021d4321f6783be5753beaa3c83c456859ebf8d81",
+          "thumbnail_sha256": "0fcadea6f772199d2d962400c2e85a55eafc2f033a19fe4bfd3ab5035bf023b8",
+          "thumbnail_bytes": 7786
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_01.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_01.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.006127530708909035,
+          "source_sha256": "e789872ee7141c6c036e82eef2c3cb5fd0d0ba300a603edf62b9e91ea169f863",
+          "thumbnail_sha256": "5c6ee45ed4733c9acd6b5431fa84b11c9df78a4585d53d6423e8f1b3ea8baec2",
+          "thumbnail_bytes": 300
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_01.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_01.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.565942108631134,
+          "source_sha256": "8444d1827510f95eb6173641af4fc032b27bcd2f6b2db7c1cbc062ea65ebb0ed",
+          "thumbnail_sha256": "46a7fd03b6200c7ed33e6f55e97d4f3cd1f9512d3834559f2875506e284e80f5",
+          "thumbnail_bytes": 5906
+        }
+      }
+    },
+    {
+      "id": "multi_human_02",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_02.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_02.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4909484088420868,
+          "source_sha256": "bdeb2e55539e5ddf14e4394b034615295ca597cca15ee74ac37a007710ecf38b",
+          "thumbnail_sha256": "abfa0d362256709b626fe7a8a86606eb9a7c5ff1da1459659286820b758d74a9",
+          "thumbnail_bytes": 10568
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_02.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.48992598056793213,
+          "source_sha256": "584000f529646a63efee37c1e5a08783eea9138e97a408d6a3224829abec24df",
+          "thumbnail_sha256": "81c6a9173817f0764a92f5535de9f13e1662f1d476f32a31b3e59e3e8b414d6a",
+          "thumbnail_bytes": 11950
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_02.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.4703310430049896,
+          "source_sha256": "0ec7a327615085cf80bf916a068b7754ae447a26bb4c03c9174fc56da3c2769c",
+          "thumbnail_sha256": "4a032b054a9ef652bdd393ddfcccbab7f66a75f44333f26d1e955519880f6c55",
+          "thumbnail_bytes": 8944
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_02.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_02.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 2.527835385990329e-05,
+          "source_sha256": "a50ab821648ab08d91d98331f383f145dd3a70e5b9ffa0562c541914b55cf91c",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_02.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_02.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.45987534523010254,
+          "source_sha256": "9d87f0d49b432d178b86f098daa316878d6a085c4c7d1259c14a9fd7effa51c3",
+          "thumbnail_sha256": "062e386079701c3856b34d68f422a418d9dc52d75db5437ad6cf1fe01b581d7d",
+          "thumbnail_bytes": 9996
+        }
+      }
+    },
+    {
+      "id": "multi_human_03",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_03.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_03.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6555562019348145,
+          "source_sha256": "36105bf579eefa3f7ae1224ca93cc32157833f97747b9052174563b8ae11125b",
+          "thumbnail_sha256": "ed09e4586566c7b34241425b72511ba17337215b735af273a447b3ef1f5aed48",
+          "thumbnail_bytes": 9160
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_03.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6525536179542542,
+          "source_sha256": "510b1b116a184529fe11a10432367842554ccdc01a69bc20a536f1a12b74fe79",
+          "thumbnail_sha256": "f33e91ee1c63c8353555acc0955d4fe04abdf549ac26a697a752ac3868757ed4",
+          "thumbnail_bytes": 10962
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_03.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.6427910327911377,
+          "source_sha256": "96d2367194d3c73ed244865b8739ba7b66bfd7ebd0b8e9bd043b9f1b5e318e68",
+          "thumbnail_sha256": "8f0d49808df214d1eb0d72ac07ae1c5772f5a2edca781d78850dad5390390c74",
+          "thumbnail_bytes": 8518
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_03.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_03.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.008352205157279968,
+          "source_sha256": "c3b73a63ec12efbb971b1e37cf5d021382b64b8827323366f146a4bb7ebe7eae",
+          "thumbnail_sha256": "770e1c3f3856944e2488905190e9392da7949e63b9056978842ce4c3616345d1",
+          "thumbnail_bytes": 452
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_03.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_03.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.6472803354263306,
+          "source_sha256": "3ef6c69e74097534ac901157f684996d5c8555a835a10c8142ec8577d0eaa536",
+          "thumbnail_sha256": "042a4b33209adf64309cc94f8af56fd57f13f0bb374f206cc8288a33d18aba73",
+          "thumbnail_bytes": 8036
+        }
+      }
+    },
+    {
+      "id": "multi_human_04",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_04.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_04.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.11506566405296326,
+          "source_sha256": "772ad56b6d1217f92435cf967f869880d7e7288a15b3606f35742495e254255f",
+          "thumbnail_sha256": "fb5568ded3156091a0f4f6dfb7a5695e6ac5ec476a851706087cae76b8ea702b",
+          "thumbnail_bytes": 12320
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_04.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.12202832102775574,
+          "source_sha256": "51b0d147aa0cd27602e96ba45ab0be50bbde0fc3031b55d571b0a1e6a03026df",
+          "thumbnail_sha256": "f7e4fbc757f54acff99fb34866a0c51dc5bbaa45a01301ad27d0aaf9f6a1444f",
+          "thumbnail_bytes": 13636
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_04.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.15084387362003326,
+          "source_sha256": "6b3ddf6b745dd17f38b4ccbf21cff5d779a95c1b78cec2cc5d0c627dd39f7ce1",
+          "thumbnail_sha256": "3b0a224dc62d99aaf2755d002178d0681e87b616b3fa590f61820f452edda647",
+          "thumbnail_bytes": 10690
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_04.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_04.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.005865713581442833,
+          "source_sha256": "785a8261e758ea4d39168813dedeff2ffe6228cc1540bcf53d79ac62aeff4125",
+          "thumbnail_sha256": "c9356b0cd7437b311cbab82152dde42f19267de0bee677ae30f04bb021f160e9",
+          "thumbnail_bytes": 296
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_04.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_04.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.1270967721939087,
+          "source_sha256": "66084e0202912c82753db9f2a9f304aa0a23e7d5a3520a3d46a47c0d3d271a0a",
+          "thumbnail_sha256": "4ff182140d482a4f2bdf97850f4ced2b792c006058cbafc41afe3e467d66650e",
+          "thumbnail_bytes": 8982
+        }
+      }
+    },
+    {
+      "id": "multi_human_05",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_05.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_05.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4866385757923126,
+          "source_sha256": "ec203e4c521170980ed2e4607c37580cae753a9858f802aa65dabb3897dffd86",
+          "thumbnail_sha256": "d0539e02eb27fe8d4fa6653f3f2f7c5b1974ee07ab07bf8c14f5fac5b6e3eead",
+          "thumbnail_bytes": 15376
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_05.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.48620936274528503,
+          "source_sha256": "69d6ca0e80cc5759dc6a2be19d9456a00f3c7a2d2083b6b9cddea63d8f504660",
+          "thumbnail_sha256": "7e717ebc67e14c6788ad8302ea4489e8ee928a649a0ddb6057fd4cb96a01b8d2",
+          "thumbnail_bytes": 16630
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_05.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5055122971534729,
+          "source_sha256": "7259f32a908ff17efe27be27a00da32cb2fef31f4acb911f4897ec069dc7a7cd",
+          "thumbnail_sha256": "a270f03b82a26a340922e626c2b2e3eb927d47c2c868475c614703c512eba0fc",
+          "thumbnail_bytes": 10748
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_05.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_05.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 3.1408424547407776e-05,
+          "source_sha256": "bcde30066ecb516fd4141db7730c279e7d81639dac9b07e33147c8921d3f0561",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_05.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_05.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.48084568977355957,
+          "source_sha256": "5188096cda7bdf58cf16dff0138490bae2ccbeddabb18dd52748d9f8afc8f42c",
+          "thumbnail_sha256": "70a84643150efc0fa246b07edae6a2b7b1e675aa3a68f5896f1d37528f26b84f",
+          "thumbnail_bytes": 10594
+        }
+      }
+    },
+    {
+      "id": "multi_human_06",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_06.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_06.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2218800038099289,
+          "source_sha256": "51d2a6805036461e291b73acb31aaf41ad335bcb866ce60a8a5682420fcbedfa",
+          "thumbnail_sha256": "09c699e18e79068dc7df85fb8f3366736a94dd9eeeb1a2dada0eb1b05d9e6b6f",
+          "thumbnail_bytes": 14484
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_06.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.22595518827438354,
+          "source_sha256": "404950e7a5feacab5479bde8e8d9aa2ca53724d4226dd155b77be63300f5639f",
+          "thumbnail_sha256": "6798412a32c99a203a81f0299b057ed21bccb9e5d2902729118adb34c8e93c5c",
+          "thumbnail_bytes": 15974
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_06.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.26043546199798584,
+          "source_sha256": "f98c49ceaa8507dafda0345233cc54f03ce7af25c1b166a9c723ec0951f5c537",
+          "thumbnail_sha256": "936f1bfdaf701af888fc34b627f31e701f006457c38690f8fd53bb5cf546e38f",
+          "thumbnail_bytes": 11386
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_06.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_06.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.00045267079258337617,
+          "source_sha256": "050da3d7feb7c6c3b69fe5eb40769cd3573530484cfeccf152489ccdee8903c8",
+          "thumbnail_sha256": "1d22ed2879db9fb976511aa4b8bb1b7c368cd50ce5ca952ae52e539ed13dd083",
+          "thumbnail_bytes": 222
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_06.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_06.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.22339577972888947,
+          "source_sha256": "06d867f85b2b0c33de2f95a59c3bdca46bbcd3dcfcdfcbd6bc651b7d6e3119f7",
+          "thumbnail_sha256": "53253dc71c2648aecfcf4468f448d257156cbaa46f2c63412685a699c183fa28",
+          "thumbnail_bytes": 7956
+        }
+      }
+    },
+    {
+      "id": "multi_human_07",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_07.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_07.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4216631352901459,
+          "source_sha256": "4f45bf452bd0b90f9b48cffec2a5672b016c68b68c45402bbba43e67c497a29d",
+          "thumbnail_sha256": "74a3d4de02274f607b6971b2731b7ec0e3ff05661d1d297e54850840d17684c3",
+          "thumbnail_bytes": 11454
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_07.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.42183229327201843,
+          "source_sha256": "4368064f26244a8cae51edc024a0cf7b0da4172b24a7d7a558125869551e27a1",
+          "thumbnail_sha256": "c5d59cab43b2a0a3c444a722c263cd644718d4ee44334a4bbb53a6b5d9f74def",
+          "thumbnail_bytes": 12682
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_07.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.43493959307670593,
+          "source_sha256": "51b696d0a9bb2277d959236ae5ee1a7ed44fab4cd4ba662d718742c647124535",
+          "thumbnail_sha256": "c88851ebe1238485040b73ad888ed31b58e62c82267a351d016d55134d719638",
+          "thumbnail_bytes": 9168
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_07.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_07.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.00012097987928427756,
+          "source_sha256": "967bf588ba565427da444ce24e5397925be1152c880167c119c5016e3c343b37",
+          "thumbnail_sha256": "ca0949b8dc096f27f6aa429737862256f2375593d368cc165e8daccb69ce0eeb",
+          "thumbnail_bytes": 220
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_07.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_07.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.4080671966075897,
+          "source_sha256": "8205866c7cf64056b40c076a09cc506f0070732e3d39f9c1188910c08e342ede",
+          "thumbnail_sha256": "5e2f5d76ea3db65ef7715c7faf81a8fcdd41c7e395b18b27fbafc006c3b78017",
+          "thumbnail_bytes": 7906
+        }
+      }
+    },
+    {
+      "id": "multi_human_08",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_08.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_08.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.543494462966919,
+          "source_sha256": "79d1a85353fce31b33fbfe07ac85fc57d9113640ff436e6558d6b24a5a4c532a",
+          "thumbnail_sha256": "4971d02fcd2df4588fcd27624fe04e4fa9297a6592e1cc2beef61ddff930f475",
+          "thumbnail_bytes": 4042
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_08.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5418532490730286,
+          "source_sha256": "b81b2dcee70bd01608fbe9c5e446b7493ce6aa45c21b3b103d874a1f48b0b413",
+          "thumbnail_sha256": "d8d899d61caa3100d699d7d58a5178186d61050ef7dceecf9e71111aa789e1ff",
+          "thumbnail_bytes": 6372
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_08.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.5358493328094482,
+          "source_sha256": "aa6f0cc7d7f5530181bdae91b68c92eb1658a743efa15da7370b0f619e56a44d",
+          "thumbnail_sha256": "9598b8f7229b76a80c54cb7dfe64649e5ddb813c07390702486ff4a5894c7aee",
+          "thumbnail_bytes": 5692
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_08.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_08.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 8.849435289448593e-06,
+          "source_sha256": "a7d97916efea5804a5600c23e17ab67518b200c9e76d59454b69b43189f96f0e",
+          "thumbnail_sha256": "29fd08c3aaea42bcfcd5cb9f02f96f12862d39aec36125dd8a65a8e66f52ed18",
+          "thumbnail_bytes": 200
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_08.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_08.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.5368425250053406,
+          "source_sha256": "6a8985cbc507a6f3ef098bee3c5b894291790c78ab4049a5eb659ea73b3b042d",
+          "thumbnail_sha256": "e00f37fedc5e921b73d696ffe0a1da33583bd5baaef9e3b58afb73b80d3836c0",
+          "thumbnail_bytes": 4632
+        }
+      }
+    },
+    {
+      "id": "multi_human_09",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_09.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_09.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3915891945362091,
+          "source_sha256": "c1a73a84e2dec32294aa7a90dd4cecc2c82ad4dd2243993262cf3498d01c698d",
+          "thumbnail_sha256": "c28e40fac8946a177ed6d7fe6b6e620d10a7294720941fa9f2c5bd6c4eb57ddc",
+          "thumbnail_bytes": 21710
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_09.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.39284300804138184,
+          "source_sha256": "9c9d096231aa452fa6b3d4f4f067eb24c45c9a41d85ac1338b2d044b770d7d70",
+          "thumbnail_sha256": "e4a0f5253d792418a2e2cdf20774515924c7fc186ac667fdc043a4c8f502c0e6",
+          "thumbnail_bytes": 22730
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_09.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.4033260643482208,
+          "source_sha256": "65716c785e54d8121ee415df3d27b48cf8c936abb21364e3a3c4e0da3a341c42",
+          "thumbnail_sha256": "24f87f4a7497ca616d0c2fc78312a7bcfcc7c2964b58760079f266ba89b7c774",
+          "thumbnail_bytes": 11748
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_09.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_09.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.00012424432497937232,
+          "source_sha256": "94dfaa2fb79e3bd5285dd151ca80eb6feae72018b43154b40df8cc24ff13e022",
+          "thumbnail_sha256": "7db389e5eb1e6aad4980eebd73c884f45f1fba80be8eb755087cc377277749eb",
+          "thumbnail_bytes": 202
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_09.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_09.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.3880232870578766,
+          "source_sha256": "8f35f071e3b21fa17ad11273c5cecc428e1bcbf214b5370bc42effaaf2ea5e83",
+          "thumbnail_sha256": "320b1df7ba1615997ed63fa9926216800f35f6dcc3d0191ffb3810510a4cb5d1",
+          "thumbnail_bytes": 16442
+        }
+      }
+    },
+    {
+      "id": "multi_human_10",
+      "category": "multi_human",
+      "relative_path": "multi_human/multi_human_10.png",
+      "artifacts": {
+        "original": {
+          "source": "/data/lvzhengshu/FOT/data/benchmarks/fot_real50/test_512/multi_human/multi_human_10.png",
+          "thumbnail": "thumbnails/original/multi_human/multi_human_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2973521649837494,
+          "source_sha256": "0ed29614bc6ca3d1682d8a2b1e4d86538713401d6ae0159572d711857f809264",
+          "thumbnail_sha256": "d50585c90d0e2e515eeb73064b953e77f0d4412af5a6a8bc71288269a923189b",
+          "thumbnail_bytes": 12180
+        },
+        "protected": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/protected/multi_human/multi_human_10.png",
+          "thumbnail": "thumbnails/protected/multi_human/multi_human_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.30121296644210815,
+          "source_sha256": "c5ed82abe4edf876722a63b72946977c84837a3f3266c659724634f0adf32eea",
+          "thumbnail_sha256": "c23b3eeb8965ccce7d20f5d220138a5501b304091defba50d56e85d412900d03",
+          "thumbnail_bytes": 13244
+        },
+        "forged": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/forged/multi_human/multi_human_10.png",
+          "thumbnail": "thumbnails/forged/multi_human/multi_human_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 0.34604743123054504,
+          "source_sha256": "aacbfc4be3929f4c088d3a7fa773d2941981fda71a0f9d73f3b7bd4dbd67fe9f",
+          "thumbnail_sha256": "0d190a918ccb912115ff08f90e2638abf650ec7510fd70b5736737748316fc22",
+          "thumbnail_bytes": 9478
+        },
+        "confidence": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/confidence/multi_human/multi_human_10.png",
+          "thumbnail": "thumbnails/confidence/multi_human/multi_human_10.webp",
+          "source_width": 1024,
+          "source_height": 576,
+          "source_mean": 4.487879323278321e-06,
+          "source_sha256": "4074371d68560649e39922f79b3a08fff365797e6f7bd3c2421e46199d5d9cd8",
+          "thumbnail_sha256": "a14fc80fd0c619a662c435a9e8da623a16cf8d35373789d8267eacfda8d51413",
+          "thumbnail_bytes": 198
+        },
+        "recovered": {
+          "source": "/data/lvzhengshu/FOT/outputs/fot-real50/formal/recovered/multi_human/multi_human_10.png",
+          "thumbnail": "thumbnails/recovered/multi_human/multi_human_10.webp",
+          "source_width": 512,
+          "source_height": 512,
+          "source_mean": 0.2933051884174347,
+          "source_sha256": "4c7cc3f8f02c44332f861892251f17a2f86701c04bb54eff444d9ace74fa05a4",
+          "thumbnail_sha256": "85690aa757070be6b30c671baf87658e8a5ecc0d99bd86b77f64075749e7698b",
+          "thumbnail_bytes": 8650
+        }
+      }
+    }
+  ]
+}
