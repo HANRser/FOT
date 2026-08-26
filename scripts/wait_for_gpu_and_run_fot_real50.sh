@@ -27,7 +27,7 @@ while true; do
       )
       if (( memory_used <= 2048 && utilization <= 5 )); then
         echo "running $(date --iso-8601=seconds) gpu=$gpu_index" | tee "$status_file"
-        exec "$project_root/scripts/run_fot_real50.sh" "$gpu_index"
+        exec bash "$project_root/scripts/run_fot_real50.sh" "$gpu_index"
       fi
     fi
   done
